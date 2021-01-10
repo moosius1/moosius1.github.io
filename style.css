@@ -14,6 +14,7 @@ main{
     display: grid;
     grid-template-areas: 
     "a b c d";
+    column-gap: 1ch ;
 }
 
 .linkList{
