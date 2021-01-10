@@ -5,7 +5,7 @@ header{
     color:#E2C248;
     margin: auto;
     border-radius: 25px;
-    font-size: 48pt;
+    font-size: 32pt;
 
 }
 main{
@@ -19,4 +19,13 @@ main{
 .linkList{
     grid-area:a;
     color:#375638;
+}
+
+footer{
+    width: 60%;
+    margin:auto;
+    background-color: #375638;
+    text-align: center;
+    color: #E2C248;
+    border-radius: 25px;
 }
