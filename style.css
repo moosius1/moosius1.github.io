@@ -35,4 +35,5 @@ main{
     max-width: 25%;
     height:auto;
     border: 3px solid #375638;
+    margin-right: -200px;
 }
