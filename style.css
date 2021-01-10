@@ -36,5 +36,6 @@ main{
     height:auto;
     border: 3px solid #375638;
     grid-area: b;
+    margin-left: 100px;
    
 }
