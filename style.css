@@ -18,7 +18,7 @@ main{
 }
 
 .linkList{
-    grid-area:a;
+    grid-area:b;
     color:#375638;
     margin-right: -20px;
 }
@@ -37,6 +37,6 @@ main{
     height:auto;
     border: 3px solid #375638;
     grid-area: d;
-    margin-left: 100px;
+    margin-right: -500px;
    
 }
