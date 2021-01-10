@@ -19,6 +19,7 @@ main{
 .linkList{
     grid-area:a;
     color:#375638;
+    margin-right: -20px;
 }
 
 .foot{
@@ -28,4 +29,10 @@ main{
     text-align: center;
     color: #E2C248;
     border-radius: 25px;
+}
+
+.wedding{
+    max-width: 30%;
+    height:auto;
+    border: 3px solid #375638;
 }
