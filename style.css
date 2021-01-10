@@ -5,5 +5,18 @@ header{
     color:#E2C248;
     margin: auto;
     border-radius: 25px;
+    font-size: 48pt;
 
+}
+main{
+    width: 60%;
+    margin:auto;
+    display: grid;
+    grid-template-areas: 
+    "a b";
+}
+
+.linkList{
+    grid-area:a;
+    color:#375638;
 }
