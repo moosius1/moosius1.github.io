@@ -1,2 +1,2 @@
 const year = d.getFullYear();
-document.getElementById("currentYear").textContent = year
+document.getElementById("currentYear").innerHTML = year
