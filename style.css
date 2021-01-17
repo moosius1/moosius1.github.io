@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Turret+Road:wght@700&display=swap');
 
 body{
-    padding: 2em;
+    padding: 4em;
 }
 
 header{
@@ -29,6 +29,7 @@ main{
     grid-area:b;
     color:#375638;
     margin-right: -20px;
+    padding:2em;
 }
 
 .foot{
@@ -42,10 +43,12 @@ main{
 }
 
 .wedding{
-    max-width: 25%;
+    max-width: 200px;
     height:auto;
     border: 3px solid #375638;
     grid-area: d;
-    margin-right: -500px;
+   
+    
+
    
 }
