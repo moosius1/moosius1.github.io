@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Turret+Road:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    text-align: center;    
+}
+
+h1, h2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.5;
+}
+
+h3, p {
+    font-family: "Open+Sans", sans-serif;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(3 1fr);
+    margin:auto;
+    justify-items: center;
+}
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+.first{
+    grid-column: 1/1;
+    width:400px;
+}
+.second{
+    grid-column:2/2;
+    width:400px;
+}
+.third{
+    grid-column:3/3;
+    width:400px;
+}
