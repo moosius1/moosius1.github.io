@@ -1,8 +1,18 @@
-@media only screen and (min-width: 1700px) (
+@media only screen and (min-width: 720px) {
     main{
         display:grid;
         grid-template-columns: repeat(2 1fr);
         margin:auto;
         justify-items: center;
+        grid-gap:20px;
 }
-)
+.first{
+    grid-column: 1/1;
+    width:400px;
+}
+.second{
+    grid-column:2/2;
+    width:400px;
+
+}
+}

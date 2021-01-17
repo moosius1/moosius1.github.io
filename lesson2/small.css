@@ -16,7 +16,7 @@ h3, p {
 
 main{
     display:grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(1 1fr);
     margin:auto;
     justify-items: center;
 }
@@ -24,15 +24,4 @@ img{
     width: 400px;
     border-radius: 10px;
 }
-.first{
-    grid-column: 1/1;
-    width:400px;
-}
-.second{
-    grid-column:2/2;
-    width:400px;
-}
-.third{
-    grid-column:3/3;
-    width:400px;
-}
+

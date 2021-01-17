@@ -1,8 +1,20 @@
-@media only screen and (min-width: 32.5em)  {
+@media only screen and (min-width: 1000px)  {
     main{
         display:grid;
         grid-template-columns: repeat(3 1fr);
         margin:auto;
         justify-items: center;
+}
+.first{
+    grid-column: 1/1;
+    width:400px;
+}
+.second{
+    grid-column:2/2;
+    width:400px;
+}
+.third{
+    grid-column:3/3;
+    width:400px;
 }
 }
