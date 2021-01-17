@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Turret+Road:wght@700&display=swap');
+
+body{
+    padding: 2em;
+}
+
 header{
+
     background-color: #375638;
     width: 60%;
     text-align: center;
@@ -6,6 +13,7 @@ header{
     margin: auto;
     border-radius: 25px;
     font-size: 32pt;
+    font-family: "Exo 2", sans-serif;
 
 }
 main{
@@ -30,6 +38,7 @@ main{
     text-align: center;
     color: #E2C248;
     border-radius: 25px;
+    font-family: "Exo 2", sans-serif;
 }
 
 .wedding{
