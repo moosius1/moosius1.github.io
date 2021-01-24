@@ -7,6 +7,10 @@ header,nav,main,footer {
     padding: 20px;
     
 }
+img{
+    width: 50%;
+}
+
 nav ul {
     list-style: none;
     background-color:#F7F7A7 ;
@@ -44,8 +48,8 @@ h1,h2{
     header nav ul {
          display: flex; 
          justify-content: center;
-       float: left;
-       margin-left: -40px;
+       
+       margin:-25px;
         }
     
     nav ul li {
