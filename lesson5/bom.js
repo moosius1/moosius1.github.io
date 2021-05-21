@@ -21,4 +21,4 @@ function what(){
 
 
 
-button.addEventListener('click', what)
+button.addEventListener('click', what())
