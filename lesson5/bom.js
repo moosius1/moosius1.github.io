@@ -10,6 +10,12 @@ button.addEventListener('click',() => {
         deletebutton.textContent = '❌';
         li.append(deletebutton);
         output.append(li);
+        deletebutton.addEventListener('click', function(){
+            output.removeChild(li);
+            fav.focus;
+        })
+        fav.value = '';
+        fav.focus;
     }
 }
 
