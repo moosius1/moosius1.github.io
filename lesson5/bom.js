@@ -13,7 +13,7 @@ button.addEventListener('click',() => {
         deletebutton.addEventListener('click', function(){
             output.removeChild(li);
             fav.focus;
-        })
+        });
         fav.value = '';
         fav.focus;
     }
