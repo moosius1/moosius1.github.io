@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+
+header,nav,main,footer {
+	max-width: 100%;
+    margin:  auto;
+   background-color: aliceblue;
+   width: 80%;
+   text-align: center;
+  
+   
+    
+
+}
+ 
+header{
+    display: flex;
+	align-items: center;
+   justify-content: center;
+}
+
+
+.links{
+    margin-top: -1em;
+    
+    
+}
+
+.links li:first-child{
+    display: block;
+}
+.links li{
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+
+.icon{
+    width:20%;
+    
+}    
+
+
+
+nav ul {
+    list-style: none;
+    background-color:#FFD833 ;
+    font-family: 'Permanent Marker', cursive;
+    border-style: solid;
+    ;
+
+
+}
+
+.hero{
+    width: 90%;
+    border-style: solid;
+   
+}
+
+    
+a{
+    color:#364B5B ;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#66ff00;
+}
+
+body{
+    background-color: #3A424D;
+}
+
+
+h1,h2{
+    font-family: 'Permanent Marker', cursive;
+}
+h4{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -10px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.1pt;
+    font-size: 10pt;
+    line-height: pt;
+    
+}
+
+.article{
+    width: 80%;
+}
+.forecastimg{
+    width: 80%;
+}
+
+.herodiv {margin: 10px auto; position: relative;
+       
+}
+
+.stats {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+	background: radial-gradient( #3A424D,#FFD833);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .8;
+    width: 28%;
+    height: 65%;
+    text-align: left;
+    
+    
+}
+
+aside{
+    display: block;
+
+}
+
+ .active{
+    background-color: #FFBF31;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5pt;
+}
