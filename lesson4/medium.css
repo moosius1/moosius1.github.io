@@ -1,0 +1,30 @@
+@media only screen and (min-width: 720px) {
+   
+
+.links li:first-child{
+    display: none;
+}
+
+.links li{
+    display:inline;
+    padding: 2em;
+    align-content: center;
+   
+}
+main,footer{
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    margin:auto;
+    justify-items: center;
+}
+.cast{
+    grid-column: 2;
+    grid-row: 1;
+}
+.hero{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+}
