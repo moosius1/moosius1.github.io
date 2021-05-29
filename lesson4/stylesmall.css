@@ -30,7 +30,9 @@ header{
 .links li{
     display: none;
 }
-
+.responsive li{
+    display: block;
+}
 
 .icon{
     width:20%;
@@ -85,6 +87,5 @@ p{
     letter-spacing: 0.1pt;
     line-height: 20pt;
 }
-
 
 
