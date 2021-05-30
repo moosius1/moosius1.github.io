@@ -88,8 +88,8 @@ h4{
 p{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.1pt;
-    font-size: 10pt;
-    line-height: pt;
+    font-size: 8pt;
+    line-height: 5pt;
     
 }
 
@@ -131,3 +131,7 @@ aside{
     margin-top: 20px;
     border-radius: 5pt;
 }
+
+main figure.myphoto {
+    width: 90%;
+    margin:0 0 0 2%;
