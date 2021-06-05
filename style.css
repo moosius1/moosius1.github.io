@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Turret+Road:wght@700&display=swap');
+
 
 body{
     padding: 4em;
@@ -30,6 +30,7 @@ main{
     color:#375638;
     margin-right: -20px;
     padding:2em;
+    
 }
 
 .foot{
