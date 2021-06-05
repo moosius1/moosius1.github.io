@@ -45,9 +45,13 @@
         <div class="content">
         <h2 class="preston">Preston Idaho</h2>
         <div class="herodiv">
-          <figure class="myphoto">
-        <img class="hero" src= lesson6\images\small_franklin.jpg alt="hero-image">
-      </figure>
+          <picture class="myphoto">
+
+            <source srcset= "https://moosius1.github.io/lesson6/images/medium_franklin.jpg" media="(min-width:500px) and (max-width:799px)" >
+
+            <source srcset="https://moosius1.github.io/lesson6\images\large_franklin.jpg" media="(min-width:800px)">
+        <img class="hero" src= "https://moosius1.github.io/lesson6/images/small_franklin.jpg">
+          </picture>
         <section class="stats">
           <h4 class="stathead">Weather Summary</h4>
           <p>Currently: <span id="gender">Sunny</span></p>
