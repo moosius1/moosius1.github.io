@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="large.css">
     <script defer src="script.js"></script>
-    <script defer src="windchill.js"></script>
+   
   </head>
   <body>
       <aside id="banner">Saturday= Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion </aside>
@@ -44,16 +44,25 @@
       <main class="homePage">
       
         <div class="content">
+        
         <h2 class="preston">Top Tier Home</h2>
         <div class="herodiv">
-       <img src="lesson9/images/small_franklin.jpg">
+         <picture class="myphoto">
+
+            <source srcset= "https://moosius1.github.io/lesson9/images/small_franklin.jpg" media="(max-width:799px)" >
+            <source srcset= "https://moosius1.github.io/lesson9/images/medium_franklin.jpg" media="(min-width:799px) and (max-width:1100px)">
+            <source srcset= "https://moosius1.github.io/lesson9/images/large_franklin.jpg"  media="(min-width:1100px)">
+
+            
+        <img class="hero" src= "lesson9/images/small_franklin.jpg">
+          </picture>>
         <section class="stats">
           <h4 class="stathead">Weather Summary</h4>
           <p>Current Tempurature: <span id="temp">41</span>&deg;F</p>
           <p>High: <span id="High">85°F</span></p>
-          <p>Wind Chill:<span id="output" onload="doinputoutput()"></span></p>
+          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
           <p>Humidity: <span id="Humidity">60°F</span></p>
-          <p>Wind Speed: <span id="wSpeed">10</span> MPH</p>
+          <p>Wind Speed: <span id="Speed">10</span> MPH</p>
          </section>
       </div>
         <section class="cast">
