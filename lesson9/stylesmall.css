@@ -135,3 +135,37 @@ main figure.myphoto {
     width: 90%;
     margin:0 0 0 2%;
 }
+* {padding: .35rem;}
+h2 {text-align:center;}
+
+.townArticles {
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+	flex-direction: row;
+    
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    border-top: 3px solid #000;
+    background-color:#D8E5EA;
+    font-family: ubuntu;
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+    
+}
+
+.thirdchild{
+    border-bottom:3px solid #000;
+}
+
+.data {; 
+    color:#364A5A;
+    
+    
+}
