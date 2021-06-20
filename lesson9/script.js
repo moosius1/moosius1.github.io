@@ -39,6 +39,8 @@ const water1= document.getElementById('rain1');
 const water2 = document.getElementById('rain2');
 const water3 = document.getElementById('rain3');
 const picture1 = document.querySelector('.image1');
+const picture2 = document.querySelector('.image2');
+const picture3 = document.querySelector('.image3');
 
 
 
@@ -74,5 +76,7 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
     water2.textContent = "Annual Rain Fall: " + town[1].averageRainfall;
     water3.textContent = "Annual Rain Fall: " + town[2].averageRainfall;
     //Pictures just in case
-    picture1.src = town[0].photo;
+    picture1.src = "images/"+town[0].photo;
+    picture2.src = "images/"+town[1].photo;
+    picture3.src = "images/"+town[2].photo;
 })
