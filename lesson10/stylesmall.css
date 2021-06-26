@@ -4,7 +4,7 @@ header,nav,main,footer {
 	max-width: 100%;
     margin:  auto;
    background-color: aliceblue;
-   width: 80%;
+   width: 95%;
    text-align: center;
   
    
@@ -53,8 +53,10 @@ nav ul {
 }
 
 .hero{
-    width: 90%;
-    border-style: solid;
+    width: 95%;
+    text-align: center;
+    border-radius: 4px;
+    
    
 }
 
@@ -81,14 +83,15 @@ h1,h2{
 }
 h4{
     font-family: 'Permanent Marker', cursive;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 p{
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.1pt;
     font-size: 8pt;
-    line-height: 5pt;
+    line-height: 8pt;
+    
     
 }
 
@@ -105,16 +108,28 @@ p{
 
 .stats {
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	left: 20px;
 	background: radial-gradient( #3A424D,#FFD833);
-	border: 1px solid #000;
+    border-radius:5px;
+	
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
-	opacity: .8;
-    width: 28%;
-    height: 65%;
+	opacity: .85;
+    width: 45%;
+    height: 60%;
     text-align: left;
+    
+}
+
+.smalltext{
+    text-align: left;
+    position: absolute;
+    top:50px;
+    font-weight: bold;
+    
+    
+    
     
     
 }
@@ -135,7 +150,7 @@ main figure.myphoto {
     width: 90%;
     margin:0 0 0 2%;
 }
-* {padding: .35rem;}
+
 h2 {text-align:center;}
 
 .townArticles {
@@ -147,9 +162,9 @@ h2 {text-align:center;}
 article {
 
     
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
-    border-top: 3px solid #000;
+    border-left: 5px solid aliceblue;
+    border-right: 5px solid aliceblue;
+    border-top: 5px solid aliceblue;
     background-color:#D8E5EA;
     font-family: ubuntu;
 }
@@ -171,10 +186,35 @@ article:nth-child(odd) {
 
 .image1{
     width:40%;
+    
 }
 .image2{
     width:40%;
 }
 .image3{
     width:40%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid aliceblue;
+  text-align: center;
+  padding: 8px;
+  
+}
+th{
+    color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color:#D8E5EA ;
+}
+tr:nth-child(odd){
+    background-color: #364B5B;
+    
 }
