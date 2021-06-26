@@ -8,6 +8,17 @@
     display: none;
 }
 
+.article1{
+    text-align: left;
+}
+.article2{
+    text-align: right;
+}
+.thirdchild{
+    text-align: left;
+}
+
+
 .links li{
     display:inline;
     padding: 2em;
