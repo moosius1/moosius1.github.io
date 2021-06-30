@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Tier Weather Home</title>
+    <link rel="stylesheet" href="stylesmall.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+    <script defer src="script.js"></script>
+   
+  </head>
+  <body>
+      <aside id="banner">Saturday= Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion </aside>
+      
+      <header id="headNav">
+        <img class="icon" src="images/iconfinder__storm_1337511.png" alt="Weathersite image">
+        
+        <section class="titlecomplete">
+        <h1 class="name">Top Tier Weather</h1>
+        
+        <h4 class="sub-title">Local Weather Anytime</h4>
+          
+        </section>
+        
+        </header>
+    
+        <nav class="links">
+            <ul>
+                <li class="menu"><a href="#" onclick=toggleMenu()>Menu</a></li>
+                <li><a class="btn" href="home.html"> Home </a></li>
+                <li><a class="btn" href="preston-10.html"> Preston </a></li>
+                <li><a class="active" href="soda-springs.html"> Soda Springs </a></li>
+                <li><a class="btn" href="fish_haven.html"> Fish Haven </a></li>
+                <li><a class="btn" href="storm-center.html"> Storm Center </a></li>
+                <li><a class="btn" href="gallery.html"> Gallery </a></li>
+              </ul>
+         
+     
+     </nav>
+        
+    
+      
+      <main class="homePage">
+      
+        <div class="content">
+        <div></div>
+        <h1 class="preston">Soda Springs</h1>
+        <div class="herodiv">
+         <picture class="myphoto">
+
+            <source srcset= "https://moosius1.github.io/lesson9/images/small_franklin.jpg" media="(max-width:799px)" >
+            <source srcset= "https://moosius1.github.io/lesson9/images/medium_franklin.jpg" media="(min-width:799px) and (max-width:1100px)">
+            <source srcset= "https://moosius1.github.io/lesson9/images/large_franklin.jpg"  media="(min-width:1100px)">
+
+            
+        <img class="hero" src= "lesson9/images/small_franklin.jpg">
+          </picture>
+        <section class="stats">
+          <h4 class="stathead">Weather Summary: <span id="townName"></span></h4>
+          <span class="smalltext">
+          <p>Currently: <span id="High">85°F</span></p>
+          <p>Current temp: <span id="temp">41</span>&deg;F</p>
+          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
+          <p>Humidity: <span id="Humidity">60°F</span></p>
+          <p>Wind Speed: <span id="Speed">10</span>MPH</p>
+        </span>
+         </section>
+      </div>
+<h2>The 5 Daily Highs</h2>
+      
+      
+      
+      
+      
+       
+      
+      
+      
+      
+      
+      
+      <table>
+        <tr>
+          <th><p> <span id="dayofweek1"></span>: </p></th>
+          <th><p> <span id="dayofweek2"></span>: </p></th>
+          <th><p> <span id="dayofweek3"></span>: </p></th>
+          <th><p> <span id="dayofweek4"></span>: </p></th>
+          <th><p> <span id="dayofweek5"></span>: </p></th>
+        </tr>
+        <tr>
+          <td><img src="" id="foreimage1"><br><span id="forecast1"></span>&deg; F</td>
+          <td><img src="" id="foreimage2"> <br><span id="forecast2"></span>&deg; F</td>
+          <td><img src="" id="foreimage3"> <br><span id="forecast3"></span>&deg; F</td>
+          <td><img src="" id="foreimage4"> <br><span id="forecast4"></span>&deg; F</td>
+          <td><img src="" id="foreimage5"> <br><span id="forecast5"></span>&deg; F</td>
+        </tr>
+      </table>
+
+      <div class="articles">
+      <section class="townArticles">
+        <h2>Alternating articles w/ images</h2>
+        <article class="article1">
+          <img class="image1" src="https://placekitten.com/200/200" alt="image 1">
+          <div class="data">
+            <span id="nameOne"></span>
+            <br>
+            <span id="motto1"></span>
+            <br>
+            <span id="yrfnd1"></span>
+            <br>
+            <span id="pop1"></span>
+            <br>
+            <span id="rain1"></span>
+          
+          </div>
+        </article>
+        <article class="article2">
+          <img class="image2" src="https://placekitten.com/200/200" alt="image 2">
+          <div class="data">
+            <span id="nameTwo"></span>
+            <br>
+            <span id="motto2"></span>
+            <br>
+            <span id="yrfnd2"></span>
+            <br>
+            <span id="pop2"></span>
+            <br>
+            <span id="rain2"></span>
+          </div>
+        </article>
+        <article class="thirdchild">
+          <img class="image3" src="https://placekitten.com/200/200" alt="image 3">
+          <div class="data">
+            <span id="nameThree"></span>
+            <br>
+            <span id="motto3"></span>
+            <br>
+            <span id="yrfnd3"></span>
+            <br>
+            <span id="pop3"></span>
+            <br>
+            <span id="rain3"></span>
+           </div>
+        </article>
+      </section>
+    </div>
+         
+      </main>
+        
+        <footer  class="footer">
+      
+          <div class="social">
+            <h5>Contact Information <br>1234 destination blvd<br>1234@example.com <br> 801-123-4567</h5>
+            
+            <a href="https://www.facebook.com/ian.moes.5" target="blank" >
+            <img class="facebook-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ffacebook.png?v=1602382873984" alt="My Facebook Profile">
+            </a>
+            <a href="https://www.youtube.com/channel/UCktvSuHs95GT4dmlhnPL48g?" target="blank" >
+            <img class="youtube-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Fyoutube.png?v=1602382886204" alt="My youtube channel">
+            </a>
+             <a href="https://twitter.com/HamillHimself?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank"> 
+              <img class="markhamill-twitter" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ftwitter.png?v=1602382898732" alt="Mark Hamill twitter">
+            </a>
+          
+    
+          </div>
+        
+          <div>Location Map</div>
+          <div class="footer">
+            <span id="date"></span>
+             
+
+            Last Modified:  <span id="lastmod"></span>
+             
+        </div>
+        <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({
+    google: {
+      families: [
+         "Permanent Marker", "Shadows Into Light", "Ubuntu"
+      ]
+    }
+  });
+      </script>
+   
+  </body>
+</html>

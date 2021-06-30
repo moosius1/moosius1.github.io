@@ -1,0 +1,220 @@
+
+
+header,nav,main,footer {
+	max-width: 100%;
+    margin:  auto;
+   background-color: aliceblue;
+   width: 100%;
+   text-align: center;
+  
+   
+    
+
+}
+ 
+header{
+    display: flex;
+	align-items: center;
+   justify-content: center;
+}
+
+
+.links{
+    margin-top: -1em;
+    
+    
+}
+
+.links li:first-child{
+    display: block;
+}
+.links li{
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+
+.icon{
+    width:20%;
+    
+}    
+
+
+
+nav ul {
+    list-style: none;
+    background-color:#FFD833 ;
+    font-family: 'Permanent Marker', cursive;
+    border-style: solid;
+    ;
+
+
+}
+
+.hero{
+    width: 95%;
+    text-align: center;
+    border-radius: 4px;
+    
+   
+}
+
+    
+a{
+    color:#364B5B ;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#66ff00;
+}
+
+body{
+    background-color: #3A424D;
+}
+
+
+h1,h2{
+    font-family: 'Permanent Marker', cursive;
+}
+h4{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -15px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.1pt;
+    font-size: 8pt;
+    line-height: 8pt;
+    
+    
+}
+
+.article{
+    width: 80%;
+}
+.forecastimg{
+    width: 80%;
+}
+
+.herodiv {margin: 10px auto; position: relative;
+       
+}
+
+.stats {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background: radial-gradient( #3A424D,#FFD833);
+    border-radius:5px;
+	
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .85;
+    width: 45%;
+    height: 60%;
+    text-align: left;
+    
+}
+
+.smalltext{
+    text-align: left;
+    position: absolute;
+    top:50px;
+    font-weight: bold;
+    
+    
+    
+    
+    
+}
+
+aside{
+    display: block;
+
+}
+
+ .active{
+    background-color: #364B5B;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5pt;
+}
+
+main figure.myphoto {
+    width: 90%;
+    margin:0 0 0 2%;
+}
+
+h2 {text-align:center;}
+
+.townArticles {
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+
+    
+    border-left: 5px solid aliceblue;
+    border-right: 5px solid aliceblue;
+    border-top: 5px solid aliceblue;
+    background-color:#D8E5EA;
+    font-family: ubuntu;
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+    
+}
+
+.thirdchild{
+    border-bottom:3px solid #000;
+}
+
+.data {; 
+    color:#364A5A;
+    
+    
+}
+
+.image1{
+    width:40%;
+    
+}
+.image2{
+    width:40%;
+}
+.image3{
+    width:40%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid aliceblue;
+  text-align: center;
+  padding: 8px;
+  
+}
+th{
+    color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color:#D8E5EA ;
+}
+tr:nth-child(odd){
+    background-color: #364B5B;
+    
+}
