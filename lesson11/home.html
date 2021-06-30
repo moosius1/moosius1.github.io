@@ -43,67 +43,59 @@
       
       <main class="homePage">
       
-        <div class="content">
-        <div></div>
+        
         <h1 class="preston">Home</h1>
-        <div class="herodiv">
-         <picture class="myphoto">
-
-            <source srcset= "https://moosius1.github.io/lesson9/images/small_franklin.jpg" media="(max-width:799px)" >
-            <source srcset= "https://moosius1.github.io/lesson9/images/medium_franklin.jpg" media="(min-width:799px) and (max-width:1100px)">
-            <source srcset= "https://moosius1.github.io/lesson9/images/large_franklin.jpg"  media="(min-width:1100px)">
-
+        
+        <div class="content">
+          
+          <div></div>
+         
+          <div class="herodiv">
+           <picture class="myphoto">
+  
+              
+  
+              
+          <img class="hero" src= "https://images.unsplash.com/photo-1560977501-7cb367eccebe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80">
+            </picture>
+            <span class="break">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             
-        <img class="hero" src= "lesson9/images/small_franklin.jpg">
-          </picture>
-        <section class="stats">
-          <h4 class="stathead">Weather Summary: <span id="townName"></span></h4>
-          <span class="smalltext">
-          <p>Currently: <span id="High">85°F</span></p>
-          <p>Current temp: <span id="temp">41</span>&deg;F</p>
-          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
-          <p>Humidity: <span id="Humidity">60°F</span></p>
-          <p>Wind Speed: <span id="Speed">10</span>MPH</p>
-        </span>
-         </section>
-      </div>
-<h2>The 5 Daily Highs</h2>
-      
-      
-      
-      
-      
-       
-      
-      
-      
-      
-      
-      
-      <table>
-        <tr>
-          <th><p> <span id="dayofweek1"></span>: </p></th>
-          <th><p> <span id="dayofweek2"></span>: </p></th>
-          <th><p> <span id="dayofweek3"></span>: </p></th>
-          <th><p> <span id="dayofweek4"></span>: </p></th>
-          <th><p> <span id="dayofweek5"></span>: </p></th>
-        </tr>
-        <tr>
-          <td><img src="" id="foreimage1"><br><span id="forecast1"></span>&deg; F</td>
-          <td><img src="" id="foreimage2"> <br><span id="forecast2"></span>&deg; F</td>
-          <td><img src="" id="foreimage3"> <br><span id="forecast3"></span>&deg; F</td>
-          <td><img src="" id="foreimage4"> <br><span id="forecast4"></span>&deg; F</td>
-          <td><img src="" id="foreimage5"> <br><span id="forecast5"></span>&deg; F</td>
-        </tr>
-      </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </span>
+          <section class="homeArticle">
+            <h4>Excessive Heat Warning continues</h4>
+            <span class="heatText">
+          <p>by Rick Lantz</p> 
+            
+          
+          <p>Hot temperatures will continue through the week. The high pressure will continue with highs just above 100° through the weekend. The low Tuesday tonight will be 75° and the high Wednesday will reach 103°.  Sunshine with breezy conditions on Wednesday afternoon. <br><br>
+
+            The all-time hottest temperatures ever recorded in Boise was 111°.  While that record may be safe, daily records could be broken.  There's a chance at breaking the "longest streak of consecutive days with 100°+."  The longest streak on record for Boise is currently 9 consecutive days, which has happened 3 times on record; during the summers of 2003, 2006, 2015</p>
+          </span>
+           </section>
+        </div>
 
       <div class="articles">
       <section class="townArticles">
         <h2>Alternating articles w/ images</h2>
         <article class="article1">
-          <img class="image1" src="https://placekitten.com/200/200" alt="image 1">
+          <img class="image1" src="" alt="image 1">
           <div class="data">
-            <span id="nameOne"></span>
+            <span class="townName" id="nameOne"></span>
             <br>
             <span id="motto1"></span>
             <br>
@@ -116,9 +108,9 @@
           </div>
         </article>
         <article class="article2">
-          <img class="image2" src="https://placekitten.com/200/200" alt="image 2">
+          <img class="image2" src="" alt="image 2">
           <div class="data">
-            <span id="nameTwo"></span>
+            <span class="townName"id="nameTwo"></span>
             <br>
             <span id="motto2"></span>
             <br>
@@ -130,9 +122,9 @@
           </div>
         </article>
         <article class="thirdchild">
-          <img class="image3" src="https://placekitten.com/200/200" alt="image 3">
+          <img class="image3" src="" alt="image 3">
           <div class="data">
-            <span id="nameThree"></span>
+            <span class="townName" id="nameThree"></span>
             <br>
             <span id="motto3"></span>
             <br>
@@ -150,9 +142,14 @@
         
         <footer  class="footer">
       
-          <div class="social">
-            <h5>Contact Information <br>1234 destination blvd<br>1234@example.com <br> 801-123-4567</h5>
+          
+          <h5 class="contact">Contact Information:<br> 1234 destination blvd <br> email: 1234@example.com <br> Phone: 801-123-4567</h5>
             
+          <img class="location" src="https://moosius1.github.io/lesson11/images/locationmap.PNG">
+
+          
+          <div class="social">
+          
             <a href="https://www.facebook.com/ian.moes.5" target="blank" >
             <img class="facebook-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ffacebook.png?v=1602382873984" alt="My Facebook Profile">
             </a>
@@ -165,8 +162,6 @@
           
     
           </div>
-        
-          <img src="https://moosius1.github.io/lesson11/images/locationmap.PNG">
           <div class="footer">
             <span id="date"></span>
              
