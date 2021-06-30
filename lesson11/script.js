@@ -6,6 +6,12 @@ function toggleMenu() {
 
 
 }
+function toggleArtilce() {
+    document.getElementsByClassName("excessiveHeat")[0].classList.toggle("hideHeat");
+    document.getElementsByClassName("")
+}
+
+document.querySelector('#lastmod').textContent = document.lastModified;
 
 let thedate = new Date();
 
