@@ -133,29 +133,7 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
     console.log(town[0].name)
     console.log(town);
     //names
-    firstName.textContent = town[0].name;
-    secondName.textContent = town[1].name;
-    thirdName.textContent = town[2].name;
-    //mottos
-    mottoOne.textContent = "Motto: " +town[0].motto;
-    mottoTwo.textContent = "Motto: " +town[1].motto;
-    mottoThree.textContent = "Motto: " +town[2].motto;
-    //years founded
-    year1.textContent = "Year Founded: " +town[0].yearFounded;
-    year2.textContent = "Year Founded: " +town[1].yearFounded;
-    year3.textContent = "Year Founded: " +town[2].yearFounded;
-    //population
-    people1.textContent = "Population: "+ town[0].currentPopulation;
-    people2.textContent = "Population: "+ town[1].currentPopulation;
-    people3.textContent = "Population: "+ town[2].currentPopulation;
-    //rainfall
-    water1.textContent = "Annual Rain Fall: " + town[0].averageRainfall;
-    water2.textContent = "Annual Rain Fall: " + town[1].averageRainfall;
-    water3.textContent = "Annual Rain Fall: " + town[2].averageRainfall;
-    //Pictures just in case
-    picture1.src = "images/"+town[0].photo;
-    picture2.src = "images/"+town[1].photo;
-    picture3.src = "images/"+town[2].photo;
+
     //events for each town
     eventOne.textContent= town[2].events[0];
     eventTwo.textContent= town[2].events[1];

@@ -45,6 +45,10 @@ article {
 	flex-direction: column;
     
 }
+
+article.articleNews{
+    flex-direction: row-reverse;
+}
   
 
   header,nav,main,footer {
@@ -147,6 +151,23 @@ article {
 
         .contact{
             grid-column: 1/1;
+        }
+
+        .articleNews{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .news1{
+            text-align: right;
+            margin-left: 5px;
+            margin-right:5px;
+            
+        }
+
+        .newsImage1{
+            float: left;
         }
     }
     

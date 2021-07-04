@@ -236,6 +236,21 @@ article:nth-child(odd) {
     width:100%;
     
 }
+.newsImage1{
+    width:60%;
+    float: left;
+    margin-right: 5px;
+}
+
+.news1{
+    text-align: left;
+    
+}
+
+.newsHead{
+    text-align: center;
+}
+
 .image2{
     width:100%;
 }
