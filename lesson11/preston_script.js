@@ -13,6 +13,8 @@ m = date.getMonth() + 1;
 d = date.getDate();
 document.getElementById("dates").innerHTML = m + "/" + d + "/" + y;
 
+
+
 document.querySelector('#lastmod').textContent = document.lastModified;
 
 let thedate = new Date();
@@ -22,7 +24,7 @@ if (thedate.getDay() ==0,1,2,3,4,5) {
     document.querySelector('#banner').style.display = 'none'
 }
 
-fetch("https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
 
 
 .then(function (data){
@@ -50,13 +52,13 @@ const desc = jsonObject.weather[0].description;
 
 
 
-fetch("https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
         console.log(jsObject);
 
         let day = 0;
-        const dayofWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
         const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
         console.log(fiveDayForecast);
@@ -155,7 +157,7 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
     picture2.src = "images/"+town[1].photo;
     picture3.src = "images/"+town[2].photo;
     //events for each town
-    eventOne.textContent= town[0].events[0];
-    eventTwo.textContent= town[0].events[1];
-    eventThree.textContent= town[0].events[2];
+    eventOne.textContent= town[2].events[0];
+    eventTwo.textContent= town[2].events[1];
+    eventThree.textContent= town[2].events[2];
 })

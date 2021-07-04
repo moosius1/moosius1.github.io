@@ -6,10 +6,14 @@ function toggleMenu() {
 
 
 }
-function toggleArtilce() {
-    document.getElementsByClassName("excessiveHeat")[0].classList.toggle("hideHeat");
-    document.getElementsByClassName("")
-}
+
+date =  new Date();
+y = date.getFullYear();
+m = date.getMonth() + 1;
+d = date.getDate();
+document.getElementById("dates").innerHTML = m + "/" + d + "/" + y;
+
+
 
 document.querySelector('#lastmod').textContent = document.lastModified;
 

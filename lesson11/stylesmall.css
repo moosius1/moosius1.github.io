@@ -245,14 +245,19 @@ article:nth-child(odd) {
 
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 80%;
+ 
 }
 
 td, th {
-  border: 1px solid aliceblue;
+  
   text-align: center;
   padding: 8px;
+  
+
+  
   
 }
 th{
@@ -264,6 +269,7 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd){
     background-color: #364B5B;
+    color:aliceblue;
     
 }
 
@@ -271,5 +277,37 @@ tr:nth-child(odd){
     font-family: 'Permanent Marker', cursive;
     font-size: 16pt;
     color: black;
+}
+
+table.events{
+   width: 60%;
+   margin-left: auto; 
+   margin-right: auto;
+    
+
+}
+
+#eventHolder1{
+    border-radius: 10px 10px 0px 0px;
+}
+
+#eventHolder2{
+    border-radius: 0px 0px 10px 10px;
+}
+
+#cornerOne{
+    border-radius: 10px 0px 0px 0px;
+}
+
+#cornerTwo{
+    border-radius: 0px 10px 0px 0px;
+}
+
+#cornerThree{
+    border-radius: 0px 0px 0px 10px;
+}
+
+#cornerFour{
+    border-radius: 0px 0px 10px 0px;
 }
 

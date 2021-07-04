@@ -116,7 +116,7 @@ article {
         box-shadow: 0 0 30px #333;
         opacity: .8;
         width: 28%;
-        height: 30%;
+        height: 40%;
         top: 10px;
 	    left: 40px;
         
@@ -141,7 +141,7 @@ article {
 
         .location{
             grid-column:2/2;
-            width:100%
+            width:80%
 
         }
 

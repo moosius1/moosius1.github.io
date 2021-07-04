@@ -7,6 +7,14 @@ function toggleMenu() {
 
 }
 
+date =  new Date();
+y = date.getFullYear();
+m = date.getMonth() + 1;
+d = date.getDate();
+document.getElementById("dates").innerHTML = m + "/" + d + "/" + y;
+
+document.querySelector('#lastmod').textContent = document.lastModified;
+
 let thedate = new Date();
 
 
@@ -14,7 +22,7 @@ if (thedate.getDay() ==0,1,2,3,4,5) {
     document.querySelector('#banner').style.display = 'none'
 }
 
-fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
 
 
 .then(function (data){
@@ -31,7 +39,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=78c36351
 
 
 console.log(jsonObject);
-document.getElementById('townName').textContent = name;
+
 document.getElementById('temp').textContent = current;
 document.getElementById('High').textContent = currentDescription;
 document.getElementById('Speed').textContent = windSpeed;
@@ -42,7 +50,7 @@ const desc = jsonObject.weather[0].description;
 
 
 
-fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
         console.log(jsObject);
@@ -104,6 +112,10 @@ const water3 = document.getElementById('rain3');
 const picture1 = document.querySelector('.image1');
 const picture2 = document.querySelector('.image2');
 const picture3 = document.querySelector('.image3');
+const eventOne = document.getElementById('event1');
+const eventTwo = document.getElementById('event2');
+const eventThree = document.getElementById('event3');
+
 
 
 
@@ -142,4 +154,8 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
     picture1.src = "images/"+town[0].photo;
     picture2.src = "images/"+town[1].photo;
     picture3.src = "images/"+town[2].photo;
+    //events for each town
+    eventOne.textContent= town[1].events[0];
+    eventTwo.textContent= town[1].events[1];
+    eventThree.textContent= town[1].events[2];
 })
