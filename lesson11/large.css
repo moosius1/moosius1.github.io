@@ -169,5 +169,18 @@ article.articleNews{
         .newsImage1{
             float: left;
         }
+
+        .gallery{
+            display: grid;
+            grid-template-columns: auto auto auto;
+           
+        }
+
+        .imageWtext:hover{
+            box-shadow: 0 0 20px #FFD833;
+        }
+        .galImages:hover{
+            box-shadow: 0 0 0px #FFD833;
+        }
     }
     

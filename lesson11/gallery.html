@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="stylesmall.css">
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="large.css">
-    <script defer src="script.js"></script>
+    <script defer src="gallery.js"></script>
    
   </head>
   <body>
@@ -26,156 +26,174 @@
         </header>
     
         <nav class="links">
-         <ul>
-           <li class="menu"><a href="#" onclick=toggleMenu()>Menu</a></li>
-           <li><a class="btn" href="home.html"> Home </a></li>
-           <li><a class="btn" href="preston-10.html"> Preston </a></li>
-           <li><a class="btn" href="soda-springs.html"> Soda Springs </a></li>
-           <li><a class="btn" href="fish_haven.html"> Fish Haven </a></li>
-           <li><a class="btn" href="storm-center.html"> Storm Center </a></li>
-           <li><a class="active" href="gallery.html"> Gallery </a></li>
-         </ul>
+          <ul>
+            <li class="menu"><a href="#" onclick=toggleMenu()>Menu</a></li>
+            <li><a class="btn" href="home.html"> Home </a></li>
+            <li><a class="btn" href="preston-10.html"> Preston </a></li>
+            <li><a class="btn" href="soda-springs.html"> Soda Springs </a></li>
+            <li><a class="btn" href="fish_haven.html"> Fish Haven </a></li>
+            <li><a class="btn" href="storm-center.html"> Storm Center </a></li>
+            <li><a class="active" href="gallery.html"> Gallery </a></li>
+          </ul>
          
      
      </nav>
         
     
       
-      <main class="homePage">
-      
-        <div class="content">
-        <div></div>
-        <h1 class="preston">Gallery</h1>
-        <div class="herodiv">
-         <picture class="myphoto">
-
-            <source srcset= "https://moosius1.github.io/lesson9/images/small_franklin.jpg" media="(max-width:799px)" >
-            <source srcset= "https://moosius1.github.io/lesson9/images/medium_franklin.jpg" media="(min-width:799px) and (max-width:1100px)">
-            <source srcset= "https://moosius1.github.io/lesson9/images/large_franklin.jpg"  media="(min-width:1100px)">
-
-            
-        <img class="hero" src= "lesson9/images/small_franklin.jpg">
-          </picture>
-        <section class="stats">
-          <h4 class="stathead">Weather Summary: <span id="townName"></span></h4>
-          <span class="smalltext">
-          <p>Currently: <span id="High">85°F</span></p>
-          <p>Current temp: <span id="temp">41</span>&deg;F</p>
-          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
-          <p>Humidity: <span id="Humidity">60°F</span></p>
-          <p>Wind Speed: <span id="Speed">10</span>MPH</p>
-        </span>
-         </section>
-      </div>
-<h2>The 5 Daily Highs</h2>
-      
-      
-      
-      
+      <main >
       
        
-      
-      
-      
-      
-      
-      
-      <table>
-        <tr>
-          <th><p> <span id="dayofweek1"></span>: </p></th>
-          <th><p> <span id="dayofweek2"></span>: </p></th>
-          <th><p> <span id="dayofweek3"></span>: </p></th>
-          <th><p> <span id="dayofweek4"></span>: </p></th>
-          <th><p> <span id="dayofweek5"></span>: </p></th>
-        </tr>
-        <tr>
-          <td><img src="" id="foreimage1"><br><span id="forecast1"></span>&deg; F</td>
-          <td><img src="" id="foreimage2"> <br><span id="forecast2"></span>&deg; F</td>
-          <td><img src="" id="foreimage3"> <br><span id="forecast3"></span>&deg; F</td>
-          <td><img src="" id="foreimage4"> <br><span id="forecast4"></span>&deg; F</td>
-          <td><img src="" id="foreimage5"> <br><span id="forecast5"></span>&deg; F</td>
-        </tr>
-      </table>
+       
+        <h1 id="galHead">Gallery</h1>
+      <div class="gallery">
+        <div class="fstImg">
+          <figure class="imageWtext">
+          <img
+            class="galImages"
+            id="galImg1"
+            src="images/clouds.jpg"
+            
+            alt="Image1"
+            
+            
+          />
+          <figcaption>Cloudy Sunset</figcaption>
+        </figure>
+      </div>
+        <div class="secImg">
+          <figure class="imageWtext">
+          <img
+            class="galImages"
+            id="galImg2"
+            src="images/rainy_day.jpg"
+            
+            alt="Image2"
+            
+            
+          />
+          <figcaption>Rainy Day</figcaption>
+        </figure>
+      </div>
 
-      <div class="articles">
-      <section class="townArticles">
-        <h2>Alternating articles w/ images</h2>
-        <article class="article1">
-          <img class="image1" src="https://placekitten.com/200/200" alt="image 1">
-          <div class="data">
-            <span id="nameOne"></span>
-            <br>
-            <span id="motto1"></span>
-            <br>
-            <span id="yrfnd1"></span>
-            <br>
-            <span id="pop1"></span>
-            <br>
-            <span id="rain1"></span>
-          
-          </div>
-        </article>
-        <article class="article2">
-          <img class="image2" src="https://placekitten.com/200/200" alt="image 2">
-          <div class="data">
-            <span id="nameTwo"></span>
-            <br>
-            <span id="motto2"></span>
-            <br>
-            <span id="yrfnd2"></span>
-            <br>
-            <span id="pop2"></span>
-            <br>
-            <span id="rain2"></span>
-          </div>
-        </article>
-        <article class="thirdchild">
-          <img class="image3" src="https://placekitten.com/200/200" alt="image 3">
-          <div class="data">
-            <span id="nameThree"></span>
-            <br>
-            <span id="motto3"></span>
-            <br>
-            <span id="yrfnd3"></span>
-            <br>
-            <span id="pop3"></span>
-            <br>
-            <span id="rain3"></span>
-           </div>
-        </article>
-      </section>
-    </div>
+      <figure class="imageWtext">
+          <img
+            class="galImages"
+            id="galImg3"
+            src="images/snowy.jpg"
+            
+            alt="Image3"
+            
+            
+          />
+          <figcaption>Snowy Cabin</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy" 
+            id="galImg4"
+            data-src="images/sleety.jpg"
+            
+            alt="Image4"
+            
+            
+          />
+          <figcaption>Sleety Street</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy"
+            id="galImg5"
+            data-src="images/storm_clouds.jpg"
+            
+            alt="Image5"
+            
+            
+          />
+          <figcaption>Stormy Clouds</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy"
+            id="galImg6"
+            data-src="images/sunny_wheat.jpg"
+            
+            alt="Image6"
+            
+            
+          />
+          <figcaption>Sunny Wheat</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy"
+            id="galImg7"
+            data-src="images/foggy_river.jpg"
+            
+            alt="Image7"
+            
+            
+          />
+          <figcaption>Foggy River</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy"
+            id="galImg8"
+            data-src="images/hot_summer.jpg"
+            
+            alt="Image8"
+            
+            
+          />
+          <figcaption>Hot Summer</figcaption>
+        </figure>
+
+        <figure class="imageWtext">
+          <img
+            class="galImages lazy"
+            id="galImg9"
+            data-src="images/cool_fall.jpg"
+            
+            alt="Image9"
+            
+            
+          />
+          <figcaption>Cool Fall</figcaption>
+        </figure>
+      </div>
+      
+        
+        
          
       </main>
         
-        <footer  class="footer">
+      <footer  class="footer">
       
-          <div class="social">
-            <h5>Contact Information <br>1234 destination blvd<br>1234@example.com <br> 801-123-4567</h5>
-            
-            <a href="https://www.facebook.com/ian.moes.5" target="blank" >
-            <img class="facebook-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ffacebook.png?v=1602382873984" alt="My Facebook Profile">
-            </a>
-            <a href="https://www.youtube.com/channel/UCktvSuHs95GT4dmlhnPL48g?" target="blank" >
-            <img class="youtube-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Fyoutube.png?v=1602382886204" alt="My youtube channel">
-            </a>
-             <a href="https://twitter.com/HamillHimself?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank"> 
-              <img class="markhamill-twitter" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ftwitter.png?v=1602382898732" alt="Mark Hamill twitter">
-            </a>
           
-    
-          </div>
-        
-          <div>Location Map</div>
-          <div class="footer">
-            <span id="date"></span>
-             
+        <h5 class="contact">Contact Information:<br> 1234 destination blvd <br> email: 1234@example.com <br> Phone: 801-123-4567</h5>
+          
+        <img class="location" src="https://moosius1.github.io/lesson11/images/locationmap.PNG">
 
-            Last Modified:  <span id="lastmod"></span>
-             
-        </div>
-        <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
-      </footer>
+        
+     
+        <div class="footer">
+          <span id="date"></span>
+           
+
+          Last Modified:  <span id="lastmod"></span>
+           
+      </div>
+      <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
+      <p>Terms of Use <a href="https://www.termsfeed.com/live/f79cdef3-01fc-4133-aaa4-2d98ff6b7837">Found Here</a></a></p>
+      <p>&copy;Ian Moes Designs</p>
+      <p>Current Date:  <span id='dates'></span></p>
+    </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({

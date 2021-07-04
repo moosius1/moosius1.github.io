@@ -269,7 +269,7 @@ table {
 td, th {
   
   text-align: center;
-  padding: 8px;
+  padding: 8pt;
   
 
   
@@ -277,10 +277,12 @@ td, th {
 }
 th{
     color: aliceblue;
+    padding: 10pt;
 }
 
 tr:nth-child(even) {
   background-color:#D8E5EA ;
+  
 }
 tr:nth-child(odd){
     background-color: #364B5B;
@@ -326,3 +328,12 @@ table.events{
     border-radius: 0px 0px 10px 0px;
 }
 
+
+.galImages{
+    width:100%;
+    border-radius: 5pt;
+}
+
+.galImages:hover{
+    box-shadow: 0 0 20px #FFD833;
+}
