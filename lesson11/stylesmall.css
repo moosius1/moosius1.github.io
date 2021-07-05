@@ -270,10 +270,15 @@ table {
  
 }
 
+.dailyHigh{
+    max-width: 40%;
+}
+
+
 td, th {
   
   text-align: center;
-  padding: 8pt;
+  padding: 5pt;
   
 
   

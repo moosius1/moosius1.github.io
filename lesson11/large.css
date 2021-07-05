@@ -167,5 +167,10 @@ article.articleNews{
         .galImages:hover{
             box-shadow: 0 0 0px #FFD833;
         }
+
+        td, th {
+            text-align: center;
+            padding: 20pt;
+        }
     }
     

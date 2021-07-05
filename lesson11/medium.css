@@ -172,6 +172,9 @@ article.articleNews{
    
 }
 
-
+td, th {
+    text-align: center;
+    padding: 15pt;
+}
 
 }
