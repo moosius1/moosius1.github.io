@@ -109,7 +109,30 @@ main,footer{
 }
 
 footer{
-    margin-top: 20px;
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3pt;
+}
+.location{
+    grid-column: 1/1;
+    grid-row:1/1;
+}
+.contact{
+    grid-column: 2/2;
+    grid-row:1/1;
+    margin-left: -150pt;
+    margin-top:3pt;
+}
+#lastmod{
+    grid-column:2/2;
+    grid-row:2/2;
+    
+}
+.nerdLinks{
+    grid-column: 1/1;
+    grid-row: 2/2;
 }
 
 article.articleNews{

@@ -23,6 +23,17 @@ let thedate = new Date();
 if (thedate.getDay() ==0,1,2,3,4,5) {
     document.querySelector('#banner').style.display = 'none'
 }
-
+console.log(thedate.getDay);
 
    
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+function selectResponse() {
+	const s = document.querySelector('#selected')
+	const sel = document.querySelector('#selecttown');
+	s.style.display = "block";
+	s.textContent = sel.value;
+	
+}

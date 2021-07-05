@@ -45,9 +45,102 @@
       
        <h1>Storm Center</h1>
 
-       <h2>Report Current Weather or </h2>
+       <h2 class="headForm"> Report Severe Weather Below</h2>
+       <h4>If this is an emergency please dial 911</h4>
 
-     
+       <form target="*" action="response.html">
+
+          <fieldset>
+            <legend>Personal Information</legend>
+           
+            <label class="personalInfo">Full Name:<br> <input type="text"  placeholder="John Doe" required></label>
+            <br><label class="personalInfo">Email: <br> <input type="email" placeholder="jdoe1234@example.com" required></label>
+            <br><label class="personalInfo">Phone Number:<br> <input type="tel" placeholder="Phone number"  required></label>
+            <br><label class="personalInfo">Zip Code: <br> <input type="number" placeholder="Zip Code" required></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Storm Information</legend>
+           
+            <label class="stormInfo">Current Date <br> <br>  <input type="datetime-local" ></label>
+            <br><br><label class="stormInfo">Current Weather Events<br><br> <input type="text" list="storms"></label>
+            <datalist id="storms">
+              <option class="options" value disabled selected> Choose Current Weather event</option>
+              <option value="Flash Flood"></option>
+              <option value="Hail"></option>
+              <option value="Hurricane"></option>
+              <option value="Thunderstorm"></option>
+              <option value="Tornado"></option>
+              <option value="Cloudy with a chance of meatballs"></option>
+            </datalist>
+
+            <br><br><label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span>
+            </label>
+        
+            <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+        
+           
+            
+            <br><label class=stormInfo>
+              <select name="Towns" id="selecttown" onchange="selectResponse()">
+                <option value="" disabled selected>Select a Town ...</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda">Soda Springs</option>
+                <option value="Fish">Fish Haven</option>
+                
+              </select></label>
+              <br>
+              <br>
+              <br>
+
+              <label class="iStorm">Are you in danger?<br><br></label>
+
+                <label class="stormInfo"><input class="radioSelect" type="radio" name="answer" value="yes"> Yes</label>
+                <label class="stormInfo"><input type="radio" name="answer" value="no"> No</label>
+                <label class="stormInfo"><input type="radio" name="answer" value="maybe"> Maybe</label>
+                
+           
+
+              
+          </fieldset>
+          
+
+
+
+          <fieldset>
+
+            <legend>Additional Information or Comments</legend>
+
+            <label class="commentSection">
+              <textarea name="comments" cols="30" rows="10"></textarea></label>
+
+              <br><br><input class="button" type="submit" value="Submit Report">
+
+
+
+          </fieldset>
+
+          
+
+
+
+       </form>
+
+     <br>
         
         
          
