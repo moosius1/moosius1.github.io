@@ -56,7 +56,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=78c3635
         console.log(jsObject);
 
         let day = 0;
-        const dayofWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
         const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
         console.log(fiveDayForecast);

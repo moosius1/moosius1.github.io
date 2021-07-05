@@ -114,16 +114,20 @@ footer{
     margin-left: auto;
     margin-right: auto;
     padding-right: 3pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
 }
 .location{
     grid-column: 1/1;
     grid-row:1/1;
+    margin-left: 50pt;
+    margin-top: 10pt;
 }
 .contact{
     grid-column: 2/2;
     grid-row:1/1;
-    margin-left: -150pt;
-    margin-top:3pt;
+    margin-left: -200pt;
+    margin-top: 10pt;
 }
 #lastmod{
     grid-column:2/2;
@@ -133,6 +137,9 @@ footer{
 .nerdLinks{
     grid-column: 1/1;
     grid-row: 2/2;
+    margin-left: 200pt;
+    margin-right: auto;
+
 }
 
 article.articleNews{

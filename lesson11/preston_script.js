@@ -40,7 +40,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=78c36351
     
 
 
-console.log(jsonObject);
+
 document.getElementById('townName').textContent = name;
 document.getElementById('temp').textContent = current;
 document.getElementById('High').textContent = currentDescription;
@@ -55,17 +55,17 @@ const desc = jsonObject.weather[0].description;
 fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
-        console.log(jsObject);
+        
 
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
         const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
-        console.log(fiveDayForecast);
+        
 
         fiveDayForecast.forEach(x=>{
             let d = new Date(x.dt_txt);
-            console.log(d);
+            
             document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
             document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
             document.getElementById(`foreimage1`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[0].weather[0].icon +'.png';
@@ -130,8 +130,7 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
     
     const towns = jsonObject['towns'];
     const town = towns.filter(town => town.name == 'Preston' || town.name == 'Soda Springs' || town.name == "Fish Haven")
-    console.log(town[0].name)
-    console.log(town);
+    
     //names
 
     //events for each town
