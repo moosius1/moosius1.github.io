@@ -25,7 +25,7 @@
   }
 
   .image1{
-    width:100%;
+    width:50%;
     
 }
 .image2{
@@ -171,6 +171,26 @@ article.articleNews{
         td, th {
             text-align: center;
             padding: 20pt;
+        }
+
+
+        #aboutUs{
+            margin:10px;
+            width: 47%;
+            
+         }
+         #Upcoming{
+            width:47%;
+            margin:10px;
+           
+            float: right;
+        }
+
+        #weather{
+            float:left;
+            width:47%;
+            margin:10px;
+           
         }
     }
     

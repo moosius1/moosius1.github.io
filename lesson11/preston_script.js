@@ -24,7 +24,7 @@ if (thedate.getDay() ==0,1,2,3,4,5) {
     document.querySelector('#banner').style.display = 'none'
 }
 
-fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/weather?id=5807236&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
 
 
 .then(function (data){
@@ -52,7 +52,7 @@ const desc = jsonObject.weather[0].description;
 
 
 
-fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/forecast?id=5807236&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
         

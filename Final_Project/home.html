@@ -47,15 +47,16 @@
         
         
         <div class="content">
-
-            
+<br>
+<br>
+            <h4>Featured businesses</h4>
           
       <div class="articles">
           
         <section class="townArticles">
           <a href="https://www.erikajoanne.com/">
           <article class="article1" >
-            <img class="image1" src="" alt="image 1">
+            <img class="image1" src="images/erikajoanneartlogo.png" alt="image 1">
             <div class="data">
               <span class="townName" id="nameOne"></span>
               <br>
@@ -72,7 +73,7 @@
           </article>
           <a href="https://puertovallartarestaurantes.com/">
           <article class="article2">
-            <img class="image2" src="" alt="image 2">
+            <img class="image2" src="images/pv-logo-150px.jpg" alt="image 2">
             <div class="data">
               <span class="townName"id="nameTwo"></span>
               <br>
@@ -87,7 +88,7 @@
           </article>
           <a href="https://tmiaquatics.com/">
           <article class="thirdchild">
-            <img class="image3" src="" alt="image 3">
+            <img class="image3" src="images/TMI_logo.png" alt="image 3">
             <div class="data">
               <span class="townName" id="nameThree"></span>
               <br>
@@ -103,46 +104,85 @@
         </section>
       </div>
           
-         
-          <div class="herodiv">
-           <picture class="myphoto">
-  
-              
-  
-              
-          <img class="hero" src= "https://images.unsplash.com/photo-1560977501-7cb367eccebe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80">
-            </picture>
-            <span class="break">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-          </span>
-          <section class="homeArticle">
-            <h4>Excessive Heat Warning continues</h4>
-            <span class="heatText">
-          <p>by Rick Lantz</p> 
-            
+         <h3> Become part of our growing community</h3>
+      <button type="button" onclick="alert('Hello world!')" class="joinButton">Join now</button>
+      
+      <article id="aboutUs">
+          <h1 class="aboutTitle">About Us</h1>
           
-          <p>Hot temperatures will continue through the week. The high pressure will continue with highs just above 100° through the weekend. The low Tuesday tonight will be 75° and the high Wednesday will reach 103°.  Sunshine with breezy conditions on Wednesday afternoon. <br><br>
+          <p>Port Orchard is located on the Sinclair Inlet of the Puget Sound.  As a waterfront community we are proud of our amenities.   Our numerous marinas provide visitors and boat dwellers alike with convenient accommodations.  Our downtown corridor offers shopping, museums, entertainment, galleries and dining.  With ferry access from Bremerton and Seattle, an excursion to Port Orchard is an easy day trip or a weekend getaway.  When visiting our city, it is hard to miss the majestic view of the Olympic Mountains and the pride of military heritage just across the water at the Puget Sound Naval Shipyard.</p>
+      </article>
 
-            The all-time hottest temperatures ever recorded in Boise was 111°.  While that record may be safe, daily records could be broken.  There's a chance at breaking the "longest streak of consecutive days with 100°+."  The longest streak on record for Boise is currently 9 consecutive days, which has happened 3 times on record; during the summers of 2003, 2006, 2015 <br><br><a href="https://www.ktvb.com/article/weather/idaho-weather-forecast-treasure-valley-boise-meridian-nampa-caldwell/277-314988364">Full up to date article found here</a></p>
-          </span>
-           </section>
-        </div>
+      <article id="Upcoming">
+        <h1 class="">Upcoming Events</h1>
+        <table class="events">
+  
+            <tr>
+              <td><a href="https://local.aarp.org/event/port-orchard-farmers-market-2021-07-24-port-orchard-wa.html">Saturday July 24th: Port Orchard Farmers Market</a></td>
+            </tr>
+            <tr >
+              <td ><a class="oddRow" href="https://www.webscorer.com/register?raceid=242610">Sunday July 25: Bremerton 2 Bridges Tidal Race</a></td>
+            </tr>
+            <tr>
+              <td ><a href="http://chamber.skchamber.org/events/details/port-orchard-city-council-meeting-08-10-2021-7627">Tuesday August 10th:Port Orchard City Council Meeting </a></td>
+            </tr>
+          
+          
+          </table>
+        
+    </article>
 
+    <table class="dailyHigh">
+        <tr>
+          <th id="cornerOne"> <span id="dayofweek1"></span>: </th>
+          <th> <span id="dayofweek2"></span>: </th>
+          <th> <span id="dayofweek3"></span>: </th>
+          
+          
+        </tr>
+        <tr>
+          <td id="cornerThree"><img src="" id="foreimage1"><br><span id="forecast1"></span>&deg;F</td>
+          <td><img src="" id="foreimage2"> <br><span id="forecast2"></span>&deg;F</td>
+          <td><img src="" id="foreimage3"> <br><span id="forecast3"></span>&deg;F</td>
+          
+          
+        </tr>
+      </table>
+    <br>
+
+    
+    <div class="content">
+        <div></div>
+        <h1 class="preston">Current Weather</h1>
+        <div class="herodiv">
+         <picture class="myphoto">
+
+            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg" media="(max-width:799px)" >
+            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg" media="(min-width:799px) and (max-width:1100px)">
+            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg"  media="(min-width:1100px)">
+
+            
+        <img class="hero" src= "lesson9/images/small_franklin.jpg">
+          </picture>
+        <section class="stats">
+          <h4 class="stathead">Weather Summary: <span id="townName"></span></h4>
+          <span class="smalltext">
+          <p>Currently: <span id="High">85°F</span></p>
+          <p>Current temp: <span id="temp">41</span>&deg;F</p>
+          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
+          <p>Humidity: <span id="Humidity">60°F</span></p>
+          <p>Wind Speed: <span id="Speed">10</span>MPH</p>
+        </span>
+         </section>
+      </div>
+
+
+
+
+
+
+    
+         
          
       </main>
         
@@ -176,7 +216,7 @@
         WebFont.load({
     google: {
       families: [
-         "Permanent Marker", "Shadows Into Light", "Ubuntu"
+         "Permanent Marker", "Shadows Into Light", "Ubuntu", "Lato", "Open Sans", "Merriweather","Roboto:wght@500"
       ]
     }
   });
