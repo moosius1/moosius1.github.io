@@ -85,10 +85,10 @@ main,footer{
 	position: absolute;
 	top: 10px;
 	left: 30px;
-	background: radial-gradient( #3A424D,#FFD833);
-	border: 1px solid #000;
+	background: radial-gradient( #75DDDD,#16697A);
+	
 	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
+	
 	opacity: .8;
     width: 28%;
     height: 45%;
@@ -102,7 +102,15 @@ main,footer{
     
 }
 .image2{
-    width:40%;
+    width:30%;
+    float: right;
+    
+}
+
+.puertoV{
+    text-align: justify;
+   
+   
 }
 .image3{
     width:40%;
@@ -174,7 +182,7 @@ article.articleNews{
 
 td, th {
     text-align: center;
-    padding: 15pt;
+    padding: 9.4pt;
 }
 
 

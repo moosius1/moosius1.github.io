@@ -29,7 +29,7 @@
     
 }
 .image2{
-    width:100%;
+    width:40%;
 }
 .image3{
     width:100%;
@@ -109,10 +109,10 @@ article.articleNews{
     
     .stats {
        
-        background: radial-gradient( #3A424D,#FFD833);
-        border: 1px solid #000;
+        background: radial-gradient( #75DDDD,#16697A);
+        
         padding: 1.5rem;
-        box-shadow: 0 0 30px #333;
+        
         opacity: .8;
         width: 28%;
         height: 40%;
@@ -170,24 +170,25 @@ article.articleNews{
 
         td, th {
             text-align: center;
-            padding: 20pt;
+            
         }
 
 
         #aboutUs{
             margin:10px;
             width: 47%;
+            float: right;
             
          }
          #Upcoming{
             width:47%;
             margin:10px;
            
-            float: right;
+            
         }
 
         #weather{
-            float:left;
+            
             width:47%;
             margin:10px;
            

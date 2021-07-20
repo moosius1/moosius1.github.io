@@ -124,8 +124,8 @@ h4{
 p{
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.1pt;
-    font-size: 8pt;
-    line-height: 8pt;
+    font-size: 12pt;
+    line-height: 12pt;
     
     
 }
@@ -145,15 +145,16 @@ p{
 	position: absolute;
 	top: 10px;
 	left: 20px;
-	background: radial-gradient( #3A424D,#FFD833);
+	background: radial-gradient( #75DDDD,#16697A);
     border-radius:5px;
 	
 	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: .85;
+	box-shadow: 10px 10px 0px #333;
+	opacity: .75;
     width: 45%;
     height: 60%;
     text-align: left;
+    
     
 }
 
@@ -180,8 +181,10 @@ p{
     position: absolute;
     top:50px;
     font-weight: bold;
+    font-size: 10pt;
     
 }
+
 
 .heatText{
     text-align: left;
@@ -197,7 +200,7 @@ aside{
 }
 
  .active{
-    background-color: #f5af00;
+    background-color: #AFBD43;
     color: #5c5562;
     margin-top: 20px;
     border-radius: 5pt;
@@ -237,7 +240,7 @@ article {
 }
 
 .image1{
-    width:50%;
+    width:80%;
     
 }
 .newsImage1{
@@ -256,10 +259,10 @@ article {
 }
 
 .image2{
-    width:100%;
+    width:40%;
 }
 .image3{
-    width:100%;
+    width:70%;
 }
 
 table {
@@ -271,22 +274,25 @@ table {
 }
 
 .dailyHigh{
-    max-width: 40%;
+    max-width: 80%;
+    border: 5px solid #AFBD43;
+    border-radius: 10pt;
 }
 
 
 td, th {
   
   text-align: center;
-  padding: 5pt;
+  
+  border: 1px solid #75DDDD
   
 
   
   
 }
 th{
-    color: aliceblue;
-    padding: 10pt;
+    color: #5c5562;
+    
 }
 
 tr:nth-child(even) {
