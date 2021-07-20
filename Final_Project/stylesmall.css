@@ -1,0 +1,410 @@
+
+
+header,nav,main,footer {
+	max-width: 100%;
+    margin:  auto;
+   background-color: aliceblue;
+   width: 100%;
+   text-align: center;
+   border-radius: 5pt;
+   
+  
+   
+    
+
+}
+ 
+header{
+    display: flex;
+	align-items: center;
+   justify-content: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.social{
+    text-align: left;
+    margin-right: -20;
+    grid-column: 1/1;
+    padding:10pt;
+}
+
+.location{
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+.contact{
+    margin-top: 10pt;
+}
+
+.links{
+    margin-top: -1em;
+    
+    
+}
+
+.links li:first-child{
+    display: block;
+}
+.links li{
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+
+
+.icon{
+    width:20%;
+    
+}    
+
+
+
+nav ul {
+    list-style: none;
+    background-color:#FFD833 ;
+    font-family: 'Permanent Marker', cursive;
+    border-style: solid;
+    border-radius: 5pt;
+    
+
+
+}
+
+.hero{
+    width: 95%;
+    text-align: center;
+    border-radius: 4px;
+    
+   
+}
+
+    
+a{
+    color:#364B5B ;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#66ff00;
+}
+
+body{
+    background-color: #3A424D;
+}
+
+
+h1,h2{
+    font-family: 'Permanent Marker', cursive;
+}
+h4{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -15px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.1pt;
+    font-size: 8pt;
+    line-height: 8pt;
+    
+    
+}
+
+.article{
+    width: 80%;
+}
+.forecastimg{
+    width: 80%;
+}
+
+.herodiv {margin: 10px auto; position: relative;
+       
+}
+
+.stats {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background: radial-gradient( #3A424D,#FFD833);
+    border-radius:5px;
+	
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .85;
+    width: 45%;
+    height: 60%;
+    text-align: left;
+    
+}
+
+.homeArticle {
+	position: absolute;
+	top: 220px;
+	left: 20px;
+	background: #FFD833;
+    border-radius:5px;
+	
+	padding: 1.5rem;
+    
+	box-shadow: 0 0 30px #333;
+	opacity: .90;
+    width: 55%;
+    height: 45%;
+    text-align: left;
+    
+    
+}
+
+.smalltext{
+    text-align: left;
+    position: absolute;
+    top:50px;
+    font-weight: bold;
+    
+}
+
+.heatText{
+    text-align: left;
+    position:absolute;
+    top:45px;
+    padding-right: 10px;
+    
+}
+
+aside{
+    display: block;
+
+}
+
+ .active{
+    background-color: #364B5B;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5pt;
+}
+
+main figure.myphoto {
+    width: 90%;
+    margin:0 0 0 2%;
+}
+
+h2 {text-align:center;}
+
+.townArticles {
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+
+    border-radius: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color:aliceblue;
+    font-family: ubuntu;
+    margin:10px;
+    
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+    
+}
+
+
+
+.data {
+    color:black;
+    margin: 1em;
+    
+    
+}
+
+.image1{
+    width:100%;
+    
+}
+.newsImage1{
+    width:60%;
+    float: left;
+    margin-right: 5px;
+}
+
+.news1{
+    text-align: left;
+    
+}
+
+.newsHead{
+    text-align: center;
+}
+
+.image2{
+    width:100%;
+}
+.image3{
+    width:100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 80%;
+ 
+}
+
+.dailyHigh{
+    max-width: 40%;
+}
+
+
+td, th {
+  
+  text-align: center;
+  padding: 5pt;
+  
+
+  
+  
+}
+th{
+    color: aliceblue;
+    padding: 10pt;
+}
+
+tr:nth-child(even) {
+  background-color:#D8E5EA ;
+  
+}
+tr:nth-child(odd){
+    background-color: #364B5B;
+    color:aliceblue;
+    
+}
+
+.townName{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16pt;
+    color: black;
+}
+
+table.events{
+   width: 60%;
+   margin-left: auto; 
+   margin-right: auto;
+    
+
+}
+
+#eventHolder1{
+    border-radius: 10px 10px 0px 0px;
+}
+
+#eventHolder2{
+    border-radius: 0px 0px 10px 10px;
+}
+
+#cornerOne{
+    border-radius: 10px 0px 0px 0px;
+}
+
+#cornerTwo{
+    border-radius: 0px 10px 0px 0px;
+}
+
+#cornerThree{
+    border-radius: 0px 0px 0px 10px;
+}
+
+#cornerFour{
+    border-radius: 0px 0px 10px 0px;
+}
+
+
+.galImages{
+    width:100%;
+    border-radius: 5pt;
+}
+
+.galImages:hover{
+    box-shadow: 0 0 20px #FFD833;
+}
+
+.flexly {
+	display: flex;
+	align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+	color: #2075ff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+
+fieldset{
+    border: 2pt solid #FFD833;
+    border-radius: 5pt;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+}
+
+input{
+   
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+label{
+    padding:10px;
+}
+
+.headForm{
+    font-size: 16pt;
+}
+
+#banner{
+    background-color: #FFD833;
+    border-radius: 5pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
