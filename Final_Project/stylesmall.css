@@ -29,10 +29,11 @@ footer{
 }
 
 .social{
-    text-align: left;
-    margin-right: -20;
-    grid-column: 1/1;
-    padding:10pt;
+    
+    margin-left: auto;
+    margin-right:auto;
+    
+    
 }
 
 .location{
@@ -149,10 +150,10 @@ p{
     border-radius:5px;
 	
 	padding: 1.5rem;
-	box-shadow: 10px 10px 0px #333;
+	box-shadow: 3px 3px 0px #333;
 	opacity: .75;
     width: 45%;
-    height: 60%;
+    height: 65%;
     text-align: left;
     
     
@@ -434,14 +435,37 @@ label{
 .joinButton:hover{
     box-shadow: 2px 2px 2px rgb(0 0 0 / 0.2);
 }
-#aboutUs{
-    
-}
+
 
 .aboutTitle{
    margin:2px;
 
 }
 
+#dailynews{
+    width: 90%;
+    border-radius: 5pt;
+}
 
+#shipyard{
+    width: 90%;
+    border-radius: 5pt;
+    margin-top:10pt;
+}
 
+#ferry{
+    width: 90%;
+    border-radius: 5pt;
+    margin-top:10pt;
+}
+
+#aboutPO{
+    margin:10pt;
+    text-align: left;
+}
+
+#historyPara{
+    
+    margin:10pt;
+    text-align: left;
+}

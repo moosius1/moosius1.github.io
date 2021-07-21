@@ -125,18 +125,22 @@ footer{
     margin-top: 10pt;
     margin-bottom: 10pt;
 }
-.location{
-    grid-column: 1/1;
-    grid-row:1/1;
-    margin-left: 50pt;
-    margin-top: 10pt;
-}
+
 .contact{
     grid-column: 2/2;
     grid-row:1/1;
     margin-left: -200pt;
-    margin-top: 10pt;
+    margin-top: 30pt;
 }
+
+.social{
+    grid-column: 1/1;
+    grid-row:1/1;
+    margin-left: -180pt;
+    margin-top: 30pt;
+  
+}
+
 #lastmod{
     grid-column:2/2;
     grid-row:2/2;
@@ -186,5 +190,46 @@ td, th {
 }
 
 
+
+#ferry{
+    grid-column:2;
+    grid-row:2;
+}
+
+.aboutHead{
+    height: 20%;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#aboutPO{
+    margin:10pt;
+    text-align: left;
+}
+
+#history{
+    height:20%;
+    grid-column:1/3;
+    grid-row:3;
+}
+
+#historyPara{
+    grid-column: 2;
+    grid-row: 4;
+    margin:10pt;
+    text-align: left;
+}
+
+#currentNews{
+    grid-column: 1/3;
+    grid-row: 5;
+    width: 60%;
+}
+
+#kdnImage{
+    grid-column: 1/3;
+    grid-row:6;
+    width:60%;
+}
 
 }
