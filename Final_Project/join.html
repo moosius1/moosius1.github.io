@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POCOC Home</title>
+    <link rel="stylesheet" href="stylesmall.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+    <script defer src="script.js"></script>
+   
+  </head>
+  <body>
+     
+      <header id="headNav">
+        <img class="icon" src="images/pologo.jpg" alt="Port Orchard Logo">
+        
+        <section class="titlecomplete">
+        <h1 class="name">Chamber of Commerce</h1>
+        
+        
+          
+        </section>
+        
+        </header>
+    
+        <nav class="links">
+         <ul>
+           <li class="menu"><a href="#" onclick=toggleMenu()>Menu</a></li>
+           <li><a class="btn" href="home.html"> Home </a></li>
+           <li><a class="btn" href="port_orchard.html"> Port Orchard </a></li>
+           <li><a class="active" href="join.html"> Join </a></li>
+           <li><a class="btn" href="directory.html"> Directory </a></li>
+           <li><a class="btn" href="contact.html"> Contact </a></li>
+           
+         </ul>
+         
+     
+     </nav>
+        
+    
+      
+      <main class="about">
+
+        <h2 id="joinHead">Become a member of the Chamber today to help your business grow and be seen. <br><br>Fill out an application today!</h2>
+      
+        <form target="*" action="response.html">
+
+            <fieldset>
+              <legend>Personal Information</legend>
+             
+              <br><label class="personalInfo">First Name:<br> <input type="text"  placeholder="John" required></label>
+              <label class="personalInfo">Last Name:<br> <input type="text"  placeholder="Doe" required></label>
+              <label class="personalInfo">Title:<br> <input type="text"  placeholder="CEO, CFO, etc."></label>
+              <br><label class="personalInfo">Email: <br> <input type="email" placeholder="jdoe1234@example.com" required></label>
+              <br><label class="personalInfo">Cell Phone:<br> <input type="tel" placeholder="Phone number"  ></label>
+              
+            </fieldset>
+  
+            <fieldset>
+              <legend>Business Information</legend>
+             
+             
+              <br><label class="businessInfo">Business name:<br> <input type="text"  placeholder="Example.inc" required></label>
+              <label class="businessInfo">Business address:<br> <input type="text"  placeholder="1234 Example Ave. Someplace, UT" required></label>
+              <label class="businessInfo">Business website:<br> <input type="url"  placeholder="www.example.com"></label>
+              <br><label class="businessInfo">Business description: <br> <textarea cols="30" rows="8" placeholder="Goals, purpose and any other relevant information" required></textarea>
+             
+                  <br><br><label class="businessInfo">Membership level selection<br><br>
+                    
+                    <article class="memArticle">Membership Description:
+                        
+                        <ul id="membership">
+                            <br>
+                            
+                        <li> Non-profit: Adds your company to our social media posts and list of businesses on our website </li>
+                        <br>
+                        <li> Bronze: Adds your company to our member directory.</li>
+                        <br>
+                        <li> Silver: Gives your company a spot on the Home page for the website.   </li>
+                        <br>
+                        <li> Gold: Allows a member of your company to be included on the Committee of members for the Chamber allowing them to be involved in decision making for progressing the chamber itself. </li>
+                        <br>
+                        <li>*Lower tier benefits are included in higher tier benefits*</li>
+                        
+                      </ul> </article>
+                      
+                      <input placeholder="Choose Membership level" type="text" list="membershipLevel"></label>
+                  <datalist id="membershipLevel">
+                    <option class="options" value disabled selected>Choose Membership level</option>
+                    <option value="Non-Profit ($100)"></option>
+                    <option value="Bronze ($200)"></option>
+                    <option value="Silver ($400)"></option>
+                    <option value="Gold ($1000)"></option>
+                    
+                    
+                  </datalist>
+                
+            </fieldset>
+  
+            
+  
+  
+            <br><br><input class="aplSubmit" type="submit" value="Submit Application">
+         </form>
+        <br>
+         
+      </main>
+        
+        <footer  class="footer">
+      
+          
+          <h4 class="contact">South Kitsap Chamber of Commerce<br> 1014 Bay St. #3 <br>Port Orchard, WA 98366  🚩<br> <a href="https://www.southkitsapchamber.org/contact/">email here📧</a><br> Phone: (360) 876-350 📞</h4>
+            
+          
+
+          
+       
+          <div class="footer">
+            <div class="social">
+              
+              
+              <a href="https://www.facebook.com/ian.moes.5" target="blank" >
+              <img class="facebook-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ffacebook.png?v=1602382873984" alt="My Facebook Profile">
+              </a>
+              <a href="https://www.youtube.com/channel/UCktvSuHs95GT4dmlhnPL48g?" target="blank" >
+              <img class="youtube-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Fyoutube.png?v=1602382886204" alt="My youtube channel">
+              </a>
+               <a href="https://twitter.com/HamillHimself?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank"> 
+                <img class="markhamill-twitter" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ftwitter.png?v=1602382898732" alt="Mark Hamill twitter">
+              </a>
+            
+      
+            </div>
+            <span id="date"></span>
+             
+
+            
+             
+        </div>
+        <div class="nerdLinks">
+        <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
+        <p>Terms of Use <a href="https://www.termsfeed.com/live/f79cdef3-01fc-4133-aaa4-2d98ff6b7837">Found Here</a></a></p>
+        <p>&copy;Ian Moes Designs</p>
+        <p>Current Date:  <span id='dates'></span></p>
+        Last Modified:  <span id="lastmod"></span>
+      </div>
+      <br>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({
+    google: {
+      families: [
+         "Permanent Marker", "Shadows Into Light", "Ubuntu", "Lato", "Open Sans", "Merriweather","Roboto:wght@500"
+      ]
+    }
+  });
+      </script>
+   
+  </body>
+</html>

@@ -48,6 +48,7 @@ footer{
 
 .links{
     margin-top: -1em;
+   
     
     
 }
@@ -377,7 +378,7 @@ table.events{
 form{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: white;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -388,7 +389,7 @@ form{
 
 
 fieldset{
-    border: 2pt solid #FFD833;
+    border: 2pt solid #AFBD43;
     border-radius: 5pt;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 20px;
@@ -468,4 +469,26 @@ label{
     
     margin:10pt;
     text-align: left;
+}
+
+#membership{
+    list-style-type:none;
+    text-align: left;
+    margin-left: -20pt;
+    font-size: 8pt;
+}
+
+#joinHead{
+    margin:10pt;
+}
+
+.aplSubmit{
+    background-color: #75DDDD; 
+  border: none;
+  color: #5c5562;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
