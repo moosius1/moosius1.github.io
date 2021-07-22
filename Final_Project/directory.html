@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="stylesmall.css">
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="large.css">
-    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script defer src="directory-script.js"></script>
    
   </head>
   <body>
@@ -43,11 +45,19 @@
      <main >
       
        
+        <div id="switch">
+            <a onclick="toggleView()" > <span class="material-icons md-24">format_list_bulleted</span></a>
+            <a onclick="toggleView()" > <span class="material-icons md-24">grid_on</span></a>
+             </div><br><br>
+        <h1 id="galHead">Directory</h1>
+
        
-        <h1 id="galHead">Gallery</h1>
+       
+
+
       <div class="gallery">
         <div class="fstImg">
-          <figure class="imageWtext">
+         <a href="" id="link1"> <figure class="imageWtext">
           <img
             class="galImages"
             id="galImg1"
@@ -57,25 +67,25 @@
             
             
           />
-          <figcaption>Cloudy Sunset</figcaption>
-        </figure>
+          <figcaption><span id="businessName1"></span><br>Phone:<span id=pnum1></span></figcaption>
+        </figure></a>
       </div>
         <div class="secImg">
-          <figure class="imageWtext">
+            <a href="" id="link2"><figure class="imageWtext">
           <img
             class="galImages"
             id="galImg2"
             src="images/rainy_day.jpg"
-            
+            max-width=20px
             alt="Image2"
             
             
           />
-          <figcaption>Rainy Day</figcaption>
-        </figure>
+          <figcaption><span id="businessName2"></span><br>Phone:<span id=pnum2></span></figcaption>
+        </figure></a>
       </div>
 
-      <figure class="imageWtext">
+      <a href="" id="link3"><figure class="imageWtext">
           <img
             class="galImages"
             id="galImg3"
@@ -85,10 +95,10 @@
             
             
           />
-          <figcaption>Snowy Cabin</figcaption>
-        </figure>
+          <figcaption><span id="businessName3"></span><br>Phone:<span id=pnum3></span></figcaption>
+        </figure></a>
 
-        <figure class="imageWtext">
+        <a href="" id="link4"><figure class="imageWtext">
           <img
             class="galImages lazy" 
             id="galImg4"
@@ -98,10 +108,10 @@
             
             
           />
-          <figcaption>Sleety Street</figcaption>
-        </figure>
+          <figcaption><span id="businessName4"></span><br>Phone:<span id=pnum4></span></figcaption>
+        </figure></a>
 
-        <figure class="imageWtext">
+        <a href="" id="link5"><figure class="imageWtext">
           <img
             class="galImages lazy"
             id="galImg5"
@@ -111,10 +121,10 @@
             
             
           />
-          <figcaption>Stormy Clouds</figcaption>
-        </figure>
+          <figcaption><span id="businessName5"></span><br>Phone:<span id=pnum5></span></figcaption>
+        </figure></a>
 
-        <figure class="imageWtext">
+        <a href="" id="link6"><figure class="imageWtext">
           <img
             class="galImages lazy"
             id="galImg6"
@@ -124,10 +134,10 @@
             
             
           />
-          <figcaption>Sunny Wheat</figcaption>
-        </figure>
+          <figcaption><span id="businessName6"></span><br>Phone:<span id=pnum6></span></figcaption>
+        </figure></a>
 
-        <figure class="imageWtext">
+        <a href="" id="link7"><figure class="imageWtext">
           <img
             class="galImages lazy"
             id="galImg7"
@@ -137,34 +147,10 @@
             
             
           />
-          <figcaption>Foggy River</figcaption>
-        </figure>
+          <figcaption><span id="businessName7"></span><br>Phone:<span id=pnum7></span></figcaption>
+        </figure></a>
 
-        <figure class="imageWtext">
-          <img
-            class="galImages lazy"
-            id="galImg8"
-            data-src="images/hot_summer.jpg"
-            
-            alt="Image8"
-            
-            
-          />
-          <figcaption>Hot Summer</figcaption>
-        </figure>
-
-        <figure class="imageWtext">
-          <img
-            class="galImages lazy"
-            id="galImg9"
-            data-src="images/cool_fall.jpg"
-            
-            alt="Image9"
-            
-            
-          />
-          <figcaption>Cool Fall</figcaption>
-        </figure>
+        
       </div>
       
         

@@ -132,6 +132,15 @@ p{
     
 }
 
+.gallery{
+    display: grid;
+    grid-template-columns: 325px;
+   
+}
+#switch{
+    display: none;
+}
+
 .article{
     width: 80%;
 }
@@ -364,6 +373,13 @@ table.events{
 .galImages{
     width:100%;
     border-radius: 5pt;
+}
+#galImg2{
+    width:60%;
+    margin-top: -20px;
+}
+#galImg4{
+    background-color: #2075ff;
 }
 
 .galImages:hover{
