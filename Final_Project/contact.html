@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POCOC Home</title>
+    <link rel="stylesheet" href="stylesmall.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script defer src="script.js"></script>
+   
+  </head>
+  <body>
+     
+      <header id="headNav">
+        <img class="icon" src="images/pologo.jpg" alt="Port Orchard Logo">
+        
+        <section class="titlecomplete">
+        <h1 class="name">Chamber of Commerce</h1>
+        
+        
+          
+        </section>
+        
+        </header>
+    
+        <nav class="links">
+         <ul>
+           <li class="menu"><a href="#" onclick=toggleMenu()>Menu</a></li>
+           <li><a class="btn" href="home.html"> Home </a></li>
+           <li><a class="btn" href="port_orchard.html"> Port Orchard </a></li>
+           <li><a class="btn" href="join.html"> Join </a></li>
+           <li><a class="btn" href="directory.html"> Directory </a></li>
+           <li><a class="active" href="contact.html"> Contact </a></li>
+           
+         </ul>
+         
+     
+     </nav>
+        
+    
+      
+      <main class="homePage">
+          <div class="contactUs">
+     <h1 id="contHead">Contact us</h1>
+     <h3 id="addressInfo">Port Orchard Chamber of Commerce<br>1014 Bay St. #3<br>Port Orchard, WA 98366<br>Phone:(360)876-3505<br><a href="https://www.southkitsapchamber.org/contact/">email here📧</a></h3>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5158.603792897569!2d-122.6395397306146!3d47.53864284562638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490362b813efd01%3A0x7b3b46c5baa649cc!2sPort%20Orchard%2C%20WA!5e0!3m2!1sen!2sus!4v1626938750433!5m2!1sen!2sus" width="320" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <form id="comments" target="*" action="response2.html">
+        <fieldset>
+            <legend>Contact Form</legend>
+           
+            <br><label class="personalInfo">Full Name:<br> <input type="text"  placeholder="John Doe" required></label>
+            <br><label class="personalInfo">Cell Phone:<br> <input type="tel" placeholder="Phone number"  ></label>
+            <br><label class="personalInfo">Email: <br> <input type="email" placeholder="jdoe1234@example.com" required></label>
+            <br><label class="personalInfo">Comments and questions: <br> <textarea cols="30" rows="8" placeholder="Please enter your question here" required></textarea>
+            
+          </fieldset>
+          
+
+          <br><br><input class="aplSubmit" type="submit" value="Submit">
+
+     </form>
+
+     
+     <ul id="directors">
+        <h3>Board of Directors</h3>
+         <li>Ian Moes</li>
+         <li>Darth Vader</li>
+         <li>Naruto Uzumaki</li>
+         <li>Amuro Ray</li>
+     </ul>
+    </div>
+    <br>
+      </main>
+        
+        <footer  class="footer">
+      
+          
+          <h3 class="contact">South Kitsap Chamber of Commerce<br> 1014 Bay St. #3 <br>Port Orchard, WA 98366  🚩<br> <a href="https://www.southkitsapchamber.org/contact/">email here📧</a><br> Phone: (360) 876-350 📞</h3>
+            
+          
+
+          
+       
+          <div class="footer">
+            <div class="social">
+              
+              
+              <a href="https://www.facebook.com/ian.moes.5" target="blank" >
+              <img class="facebook-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ffacebook.png?v=1602382873984" alt="My Facebook Profile">
+              </a>
+              <a href="https://www.youtube.com/channel/UCktvSuHs95GT4dmlhnPL48g?" target="blank" >
+              <img class="youtube-img" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Fyoutube.png?v=1602382886204" alt="My youtube channel">
+              </a>
+               <a href="https://twitter.com/HamillHimself?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank"> 
+                <img class="markhamill-twitter" src="https://cdn.glitch.com/1651d297-9a68-417f-aaf7-a884a63fc5e8%2Ftwitter.png?v=1602382898732" alt="Mark Hamill twitter">
+              </a>
+            
+      
+            </div>
+            <span id="date"></span>
+             
+
+            
+             
+        </div>
+        <div class="nerdLinks">
+        <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
+        <p>Terms of Use <a href="https://www.termsfeed.com/live/f79cdef3-01fc-4133-aaa4-2d98ff6b7837">Found Here</a></a></p>
+        <p>&copy;Ian Moes Designs</p>
+        <p>Current Date:  
+        Last Modified:  <span id="lastmod"></span>
+      </div>
+      <br>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({
+    google: {
+      families: [
+         "Permanent Marker", "Shadows Into Light", "Ubuntu", "Lato", "Open Sans", "Merriweather","Roboto:wght@500"
+      ]
+    }
+  });
+      </script>
+   
+  </body>
+</html>

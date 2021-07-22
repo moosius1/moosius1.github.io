@@ -28,7 +28,7 @@ let thedate = new Date();
 fetch("https://api.openweathermap.org/data/2.5/forecast?id=5807236&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
-        console.log(jsObject);
+        
         
 
         let day = 0;
@@ -66,14 +66,14 @@ fetch("https://api.openweathermap.org/data/2.5/onecall?lat=47.5404&lon=-122.6363
 fetch("https://api.openweathermap.org/data/2.5/onecall?lat=47.5404&lon=-122.6363&exclude=hourly,minutely,alerts&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
 .then((response) => response.json())
 .then((jsObject) =>{
-    console.log(jsObject);
+    
 
     const current = jsObject['current']['temp'];
     const currentDescription = jsObject['current']['weather'][0]['description'];
-    console.log(jsObject['current']['weather'][0]['description'])
+    
     const humid = jsObject['current']['humidity'];
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject['current']["weather"][0].icon + '.png';
-    console.log(imagesrc)
+    
    
     
     document.getElementById('temp').textContent = current;
