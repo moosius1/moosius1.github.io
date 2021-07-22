@@ -127,11 +127,10 @@
         }
 
         .imageWtext:hover{
-            box-shadow: 0 0 20px #FFD833;
+            box-shadow: 0 0 20px #75DDDD;
+            border-radius: 5pt;
         }
-        .galImages:hover{
-            box-shadow: 0 0 0px #FFD833;
-        }
+        
 
         td, th {
             text-align: center;
