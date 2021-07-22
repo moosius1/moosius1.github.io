@@ -22,37 +22,13 @@ let thedate = new Date();
 
 
 
-fetch("https://api.openweathermap.org/data/2.5/weather?id=5807236&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
-
-
-.then(function (data){
-    return data.json();
-})
-.then(function(jsonObject){
-    
-    const current = jsonObject['main']['temp'];
-    const currentDescription = jsonObject['weather'][0]['description'];
-    const windSpeed = jsonObject['wind']['speed'];
-    const humid = jsonObject['main']['humidity'];
-    const name = jsonObject['name'];
-    
-
-
-
-document.getElementById('townName').textContent = name;
-document.getElementById('temp').textContent = current;
-document.getElementById('High').textContent = currentDescription;
-document.getElementById('Speed').textContent = windSpeed;
-document.getElementById('Humidity').textContent = humid+"%";
-
-const imagesrc = 'https://openweathermap.org/img/w/' + jsonObject.weather[0].icon + '.png';
-const desc = jsonObject.weather[0].description;
 
 
 
 fetch("https://api.openweathermap.org/data/2.5/forecast?id=5807236&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
     .then((response) => response.json())
     .then((jsObject) =>{
+        console.log(jsObject);
         
 
         let day = 0;
@@ -65,11 +41,12 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5807236&appid=78c3635
             let d = new Date(x.dt_txt);
             
             document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
+            
             document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
             document.getElementById(`foreimage1`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[0].weather[0].icon +'.png';
             document.getElementById(`foreimage2`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[1].weather[0].icon +'.png';
             document.getElementById(`foreimage3`).src = 'https://openweathermap.org/img/w/' +fiveDayForecast[2].weather[0].icon +'.png';
-           
+            
             
             
             day++
@@ -78,22 +55,33 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5807236&appid=78c3635
         });
     });
 
-})
 
 
-
-.then(function(windChill){
-const temp = parseInt(document.getElementById("temp").textContent);
-
-const wSpeed = parseInt(document.getElementById("Speed").textContent);
-
-let wChill = 35.74 + (0.6215*temp) - 35.75*(wSpeed**0.16) + 0.4275*temp*(wSpeed**0.16);
-
-
-document.getElementById("output").innerHTML=Math.round(wChill);
-
-})
+fetch("https://api.openweathermap.org/data/2.5/onecall?lat=47.5404&lon=-122.6363&exclude=minutely,hourly&appid=78c3635114fcdf69ed38df35765e5249")
 
 
 
 
+
+fetch("https://api.openweathermap.org/data/2.5/onecall?lat=47.5404&lon=-122.6363&exclude=hourly,minutely,alerts&appid=78c3635114fcdf69ed38df35765e5249&units=imperial")
+.then((response) => response.json())
+.then((jsObject) =>{
+    console.log(jsObject);
+
+    const current = jsObject['current']['temp'];
+    const currentDescription = jsObject['current']['weather'][0]['description'];
+    console.log(jsObject['current']['weather'][0]['description'])
+    const humid = jsObject['current']['humidity'];
+    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject['current']["weather"][0].icon + '.png';
+    console.log(imagesrc)
+   
+    
+    document.getElementById('temp').textContent = current;
+    document.getElementById('High').textContent = currentDescription;
+    document.getElementById('Humidity').textContent = humid+"%";
+    document.getElementById('desImg').src=imagesrc;
+    
+}
+
+
+)

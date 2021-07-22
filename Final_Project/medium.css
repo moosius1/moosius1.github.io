@@ -1,8 +1,5 @@
 @media only screen and (min-width: 720px) {
-   article{
-    display: flex;
-	flex-direction: row;
-   }
+   
 
    header,nav,main,footer {
 
@@ -82,19 +79,35 @@ main,footer{
 }
 
 .stats {
-	position: absolute;
-	top: 10px;
-	left: 30px;
-	background: radial-gradient( #75DDDD,#16697A);
-	
-	padding: 1.5rem;
-	
-	opacity: .8;
-    width: 28%;
-    height: 45%;
-    text-align: left;
+
     
+    color: #5c5562;
+    text-align:center ;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding:10pt;
     
+ 
+    
+}
+#desImg{
+    grid-column: 3;
+    grid-row:2;
+    
+}
+.smalltext{
+    grid-column: 1;
+    grid-row:2;
+    border:5pt solid #16697A;
+    border-radius: 5pt;
+}
+.stathead{
+    grid-column:2;
+    grid-row:2
+    
+}
+#temp{
+    font-size: 32pt;
 }
 
 .image1{
@@ -102,7 +115,7 @@ main,footer{
     
 }
 .image2{
-    width:30%;
+    width:20%;
     float: right;
     
 }

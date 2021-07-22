@@ -1,54 +1,45 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1126px) {
    
-  .townArticles{
-      display: grid;
-      grid-template-columns: 3 1fr;
-      
-
-  }
+ .articles{
+     display:flex;
+     flex-direction: row-reverse;
+ }
   .article1{
-      grid-column:1/1;
-      grid-row: 2/3;
+    height: 250px;
+      
      
      
   }
   .article2{
-      grid-column: 2/2;
-      grid-row: 2/3;
+      text-align: left;
+      
       
   }
 
   .thirdchild{
-      grid-column: 3/3;
-      grid-row: 2/3;
+     height: 350px;
+     
       
   }
 
   .image1{
-    width:50%;
+    width:100%;
     
 }
 .image2{
-    width:40%;
+    width:70%;
+    float: none;
+    
 }
 .image3{
-    width:100%;
+    width:90%;
 }
 
 
-article:nth-child(odd) {
-	flex-direction: column;
-    text-align: left;
-    
-}
-article {
-	flex-direction: column;
-    
-}
 
-article.articleNews{
-    flex-direction: row-reverse;
-}
+
+
+
   
 
   header,nav,main,footer {
@@ -63,24 +54,6 @@ article.articleNews{
 }
 
 
-.homeArticle {
-	position: absolute;
-	top: 20px;
-	left: 40px;
-	background: #FFD833;
-    border-radius:5px;
-	
-	padding: 1.5rem;
-    
-	box-shadow: 0 0 30px #333;
-	opacity: .90;
-    width: 40%;
-    height: 70%;
-    text-align: left;
-   
-    
-    
-}
 
 
 
@@ -107,21 +80,7 @@ article.articleNews{
         grid-row: 1;
     }
     
-    .stats {
-       
-        background: radial-gradient( #75DDDD,#16697A);
-        
-        padding: 1.5rem;
-        
-        opacity: .8;
-        width: 28%;
-        height: 40%;
-        top: 10px;
-	    left: 40px;
-        
-        
-        
-    }
+   
 
 
     footer{

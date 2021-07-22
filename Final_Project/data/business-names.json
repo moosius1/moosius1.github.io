@@ -1,0 +1,53 @@
+{
+  "Businesses": [
+    {
+      "name": "Erika Joanne Art",
+      "phonenumber": "(360)769-8870",
+      "email": "erika@erikajoanne.com",
+      "logourl": "https://www.erikajoanne.com/uploads/3/1/2/3/3123994/editor/new.png?1608322378",
+      "businessurl": "https://www.facebook.com/ErikaJoanneArt/?ref=page_internal"
+    },
+     {
+      "name": "Puerto Vallarta",
+      "phonenumber": "(360)-876-0788",
+      "email": "N/A",
+      "logourl": "https://puertovallartarestaurantes.com/wp-content/uploads/2019/09/pv-logo-150px.jpg",
+      "businessurl": "https://puertovallartarestaurantes.com/restaurants/port-orchard-restaurant/"
+    },
+    {
+      "name": "TMI Sustainable Aquatics",
+      "phonenumber": "(800) 818-8266",
+      "email": "N/A",
+      "logourl": "https://tmiaquatics.com/wp-content/uploads/2017/03/Long-Logo-for-Website.png",
+      "businessurl": "https://tmiaquatics.com/"
+    },
+     {
+      "name": "Hi Joy Bowl",
+      "phonenumber": "(360) 876-8111",
+      "email": "N/A",
+      "logourl": "https://hijoybowl.com/wp-content/uploads/2015/07/logo-HiJoy-white.png",
+      "businessurl": "https://hijoybowl.com/"
+    },
+     {
+      "name": "Mainline Music",
+      "phonenumber": "(360)876-8742",
+      "email": "us@mainlinemusicstore.com",
+      "logourl": "https://media.rainpos.com/10582/mainline_music_green_po_web.png",
+      "businessurl": "https://www.mainlinemusicstore.com/"
+    },
+     {
+      "name": "Olde Central Antique Mall",
+      "phonenumber": "360-895-1902",
+      "email": "N/A",
+      "logourl": "https://www.oldecentralantiquemall.com/wp-content/uploads/2013/08/newstoldecentrallogo.jpg",
+      "businessurl": "https://www.oldecentralantiquemall.com/"
+    },
+     {
+      "name": "Jak Aktion Comics and Games",
+      "phonenumber": "(360)710-0602)",
+      "email": "olycominc@gmail.com",
+      "logourl": "https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/122098003_3365044306910049_4367419209285702691_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=RSSEUaOYGHIAX8UsjAY&_nc_ht=scontent-den4-1.xx&oh=5490134b1d241487e8b50a167889f403&oe=60FE4856",
+      "businessurl": "https://www.facebook.com/JaksonAktion/"
+    }
+  ]
+}

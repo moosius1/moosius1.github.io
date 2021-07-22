@@ -144,20 +144,34 @@ p{
 }
 
 .stats {
-	position: absolute;
-	top: 10px;
-	left: 20px;
-	background: radial-gradient( #75DDDD,#16697A);
-    border-radius:5px;
-	
-	padding: 1.5rem;
-	box-shadow: 3px 3px 0px #333;
-	opacity: .75;
-    width: 45%;
-    height: 65%;
-    text-align: left;
+
     
+    color: #5c5562;
+    text-align:center ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding:10pt;
     
+ 
+    
+}
+#desImg{
+    grid-column: 3;
+    grid-row:2;
+    
+}
+.smalltext{
+    grid-column: 2/3;
+    grid-row:2;
+    border:5pt solid #16697A;
+    border-radius: 5pt;
+}
+.stathead{
+    grid-column:2
+    
+}
+#temp{
+    font-size: 32pt;
 }
 
 .homeArticle {
@@ -178,14 +192,7 @@ p{
     
 }
 
-.smalltext{
-    text-align: left;
-    position: absolute;
-    top:50px;
-    font-weight: bold;
-    font-size: 10pt;
-    
-}
+
 
 
 .heatText{

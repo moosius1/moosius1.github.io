@@ -53,14 +53,14 @@
           
       <div class="articles">
           
-        <section class="townArticles">
+        
           <a href="https://www.erikajoanne.com/">
           <article class="article1" >
             <img class="image1" src="images/erikajoanneartlogo.png" alt="image 1">
             <p>Our Door to Creativity is ALWAYS Open!
                 Here you'll find a variety of Acrylic & Innovative Paint & Pencil™ patterns to help you explore different mediums and possibilities. Teaching and designing art patterns for you to create and enjoy is what I love to do! Make sure to subscribe above to receive email updates!  Love - Love ♡ Erika Joanne</p>
             
-            </div></a>
+            </a>
           </a>
           </article>
           <a href="https://puertovallartarestaurantes.com/">
@@ -86,11 +86,13 @@
                 TMI has successfully assisted hundreds of commercial aquatic centers and facilities to create healthier and more sustainable aquatic centers. It's time to make your swimming pool crystal clear!</p>
              </div></a>
           </article>
-        </section>
+        </div>
+          
+        
       </div>
           
          <h3> Become part of our growing community</h3>
-      <button type="button" onclick="alert('Hello world!')" class="joinButton">Join now</button>
+      <a href="join.html"><button type="button"  class="joinButton">Join now</button></a>
       <br>
       <article id="aboutUs">
           <h1 class="aboutTitle">About Us</h1>
@@ -145,23 +147,16 @@
         
         <h1 class="preston">Current Weather</h1>
         <div class="herodiv">
-         <picture class="myphoto">
-
-            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg" media="(max-width:799px)" >
-            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg" media="(min-width:799px) and (max-width:1100px)">
-            <source srcset= "https://moosius1.github.io/Final_Project/images/Port_Orchard_WA.jpg"  media="(min-width:1100px)">
-
-            
-        <img class="hero" src= "lesson9/images/small_franklin.jpg">
-          </picture>
+         
         <section class="stats">
-          <h4 class="stathead">Weather Summary: <span id="townName"></span></h4>
+          <h4 class="stathead"><br>Port Orchard, WA</span><br></span><span id='dates'></span></p></h4>
+          
           <span class="smalltext">
-          <p>Currently: <span id="High">85°F</span></p>
-          <p>Current temp: <span id="temp">41</span>&deg;F</p>
-          <p>Wind Chill:<span id="output"  ></span>&deg;F</p>
-          <p>Humidity: <span id="Humidity">60°F</span></p>
-          <p>Wind Speed: <span id="Speed">10</span>MPH</p>
+          <p>Currently: <span id="High"></span><img src="" id="desImg" ></p>
+          <p><span id="temp"></span>&deg;F</p>
+          
+          <p>Humidity: <span id="Humidity"></span></p>
+          
         </span>
          </section>
          <br>
@@ -216,7 +211,7 @@
         <p>Weather Data found on<a href="https://openweathermap.org/"> openweathermap.org </a></p>
         <p>Terms of Use <a href="https://www.termsfeed.com/live/f79cdef3-01fc-4133-aaa4-2d98ff6b7837">Found Here</a></a></p>
         <p>&copy;Ian Moes Designs</p>
-        <p>Current Date:  <span id='dates'></span></p>
+        <p>Current Date:  
         Last Modified:  <span id="lastmod"></span>
       </div>
       <br>
